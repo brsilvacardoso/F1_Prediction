@@ -1,0 +1,421 @@
+Circuit,Date,Pos,No,Driver,Car,Laps,Time/Retired,PTS
+Melbourne Grand Prix Circuit - Melbourne,2018-03-25,1,5,Sebastian Vettel VET,Ferrari,58,1:29:33.283,25
+Melbourne Grand Prix Circuit - Melbourne,2018-03-25,2,44,Lewis Hamilton HAM,Mercedes,58,+5.036s,18
+Melbourne Grand Prix Circuit - Melbourne,2018-03-25,3,7,Kimi Räikkönen RAI,Ferrari,58,+6.309s,15
+Melbourne Grand Prix Circuit - Melbourne,2018-03-25,4,3,Daniel Ricciardo RIC,Red Bull Racing TAG Heuer,58,+7.069s,12
+Melbourne Grand Prix Circuit - Melbourne,2018-03-25,5,14,Fernando Alonso ALO,McLaren Renault,58,+27.886s,10
+Melbourne Grand Prix Circuit - Melbourne,2018-03-25,6,33,Max Verstappen VER,Red Bull Racing TAG Heuer,58,+28.945s,8
+Melbourne Grand Prix Circuit - Melbourne,2018-03-25,7,27,Nico Hulkenberg HUL,Renault,58,+32.671s,6
+Melbourne Grand Prix Circuit - Melbourne,2018-03-25,8,77,Valtteri Bottas BOT,Mercedes,58,+34.339s,4
+Melbourne Grand Prix Circuit - Melbourne,2018-03-25,9,2,Stoffel Vandoorne VAN,McLaren Renault,58,+34.921s,2
+Melbourne Grand Prix Circuit - Melbourne,2018-03-25,10,55,Carlos Sainz SAI,Renault,58,+45.722s,1
+Melbourne Grand Prix Circuit - Melbourne,2018-03-25,11,11,Sergio Perez PER,Force India Mercedes,58,+46.817s,0
+Melbourne Grand Prix Circuit - Melbourne,2018-03-25,12,31,Esteban Ocon OCO,Force India Mercedes,58,+60.278s,0
+Melbourne Grand Prix Circuit - Melbourne,2018-03-25,13,16,Charles Leclerc LEC,Sauber Ferrari,58,+75.759s,0
+Melbourne Grand Prix Circuit - Melbourne,2018-03-25,14,18,Lance Stroll STR,Williams Mercedes,58,+78.288s,0
+Melbourne Grand Prix Circuit - Melbourne,2018-03-25,15,28,Brendon Hartley HAR,Scuderia Toro Rosso Honda,57,+1 lap,0
+Melbourne Grand Prix Circuit - Melbourne,2018-03-25,NC,8,Romain Grosjean GRO,Haas Ferrari,24,DNF,0
+Melbourne Grand Prix Circuit - Melbourne,2018-03-25,NC,20,Kevin Magnussen MAG,Haas Ferrari,22,DNF,0
+Melbourne Grand Prix Circuit - Melbourne,2018-03-25,NC,10,Pierre Gasly GAS,Scuderia Toro Rosso Honda,13,DNF,0
+Melbourne Grand Prix Circuit - Melbourne,2018-03-25,NC,9,Marcus Ericsson ERI,Sauber Ferrari,5,DNF,0
+Melbourne Grand Prix Circuit - Melbourne,2018-03-25,NC,35,Sergey Sirotkin SIR,Williams Mercedes,4,DNF,0
+Bahrain International Circuit - Sakhir,2018-04-08,1,5,Sebastian Vettel VET,Ferrari,57,1:32:01.940,25
+Bahrain International Circuit - Sakhir,2018-04-08,2,77,Valtteri Bottas BOT,Mercedes,57,+0.699s,18
+Bahrain International Circuit - Sakhir,2018-04-08,3,44,Lewis Hamilton HAM,Mercedes,57,+6.512s,15
+Bahrain International Circuit - Sakhir,2018-04-08,4,10,Pierre Gasly GAS,Scuderia Toro Rosso Honda,57,+62.234s,12
+Bahrain International Circuit - Sakhir,2018-04-08,5,20,Kevin Magnussen MAG,Haas Ferrari,57,+75.046s,10
+Bahrain International Circuit - Sakhir,2018-04-08,6,27,Nico Hulkenberg HUL,Renault,57,+99.024s,8
+Bahrain International Circuit - Sakhir,2018-04-08,7,14,Fernando Alonso ALO,McLaren Renault,56,+1 lap,6
+Bahrain International Circuit - Sakhir,2018-04-08,8,2,Stoffel Vandoorne VAN,McLaren Renault,56,+1 lap,4
+Bahrain International Circuit - Sakhir,2018-04-08,9,9,Marcus Ericsson ERI,Sauber Ferrari,56,+1 lap,2
+Bahrain International Circuit - Sakhir,2018-04-08,10,31,Esteban Ocon OCO,Force India Mercedes,56,+1 lap,1
+Bahrain International Circuit - Sakhir,2018-04-08,11,55,Carlos Sainz SAI,Renault,56,+1 lap,0
+Bahrain International Circuit - Sakhir,2018-04-08,12,16,Charles Leclerc LEC,Sauber Ferrari,56,+1 lap,0
+Bahrain International Circuit - Sakhir,2018-04-08,13,8,Romain Grosjean GRO,Haas Ferrari,56,+1 lap,0
+Bahrain International Circuit - Sakhir,2018-04-08,14,18,Lance Stroll STR,Williams Mercedes,56,+1 lap,0
+Bahrain International Circuit - Sakhir,2018-04-08,15,35,Sergey Sirotkin SIR,Williams Mercedes,56,+1 lap,0
+Bahrain International Circuit - Sakhir,2018-04-08,16,11,Sergio Perez PER,Force India Mercedes,56,+1 lap,0
+Bahrain International Circuit - Sakhir,2018-04-08,17,28,Brendon Hartley HAR,Scuderia Toro Rosso Honda,56,+1 lap,0
+Bahrain International Circuit - Sakhir,2018-04-08,NC,7,Kimi Räikkönen RAI,Ferrari,35,DNF,0
+Bahrain International Circuit - Sakhir,2018-04-08,NC,33,Max Verstappen VER,Red Bull Racing TAG Heuer,3,DNF,0
+Bahrain International Circuit - Sakhir,2018-04-08,NC,3,Daniel Ricciardo RIC,Red Bull Racing TAG Heuer,1,DNF,0
+Shanghai International Circuit - Shanghai,2018-04-15,1,3,Daniel Ricciardo RIC,Red Bull Racing TAG Heuer,56,1:35:36.380,25
+Shanghai International Circuit - Shanghai,2018-04-15,2,77,Valtteri Bottas BOT,Mercedes,56,+8.894s,18
+Shanghai International Circuit - Shanghai,2018-04-15,3,7,Kimi Räikkönen RAI,Ferrari,56,+9.637s,15
+Shanghai International Circuit - Shanghai,2018-04-15,4,44,Lewis Hamilton HAM,Mercedes,56,+16.985s,12
+Shanghai International Circuit - Shanghai,2018-04-15,5,33,Max Verstappen VER,Red Bull Racing TAG Heuer,56,+20.436s,10
+Shanghai International Circuit - Shanghai,2018-04-15,6,27,Nico Hulkenberg HUL,Renault,56,+21.052s,8
+Shanghai International Circuit - Shanghai,2018-04-15,7,14,Fernando Alonso ALO,McLaren Renault,56,+30.639s,6
+Shanghai International Circuit - Shanghai,2018-04-15,8,5,Sebastian Vettel VET,Ferrari,56,+35.286s,4
+Shanghai International Circuit - Shanghai,2018-04-15,9,55,Carlos Sainz SAI,Renault,56,+35.763s,2
+Shanghai International Circuit - Shanghai,2018-04-15,10,20,Kevin Magnussen MAG,Haas Ferrari,56,+39.594s,1
+Shanghai International Circuit - Shanghai,2018-04-15,11,31,Esteban Ocon OCO,Force India Mercedes,56,+44.050s,0
+Shanghai International Circuit - Shanghai,2018-04-15,12,11,Sergio Perez PER,Force India Mercedes,56,+44.725s,0
+Shanghai International Circuit - Shanghai,2018-04-15,13,2,Stoffel Vandoorne VAN,McLaren Renault,56,+49.373s,0
+Shanghai International Circuit - Shanghai,2018-04-15,14,18,Lance Stroll STR,Williams Mercedes,56,+55.490s,0
+Shanghai International Circuit - Shanghai,2018-04-15,15,35,Sergey Sirotkin SIR,Williams Mercedes,56,+58.241s,0
+Shanghai International Circuit - Shanghai,2018-04-15,16,9,Marcus Ericsson ERI,Sauber Ferrari,56,+62.604s,0
+Shanghai International Circuit - Shanghai,2018-04-15,17,8,Romain Grosjean GRO,Haas Ferrari,56,+65.296s,0
+Shanghai International Circuit - Shanghai,2018-04-15,18,10,Pierre Gasly GAS,Scuderia Toro Rosso Honda,56,+66.330s,0
+Shanghai International Circuit - Shanghai,2018-04-15,19,16,Charles Leclerc LEC,Sauber Ferrari,56,+82.575s,0
+Shanghai International Circuit - Shanghai,2018-04-15,20,28,Brendon Hartley HAR,Scuderia Toro Rosso Honda,51,DNF,0
+Baku City Circuit - Baku,2018-04-29,1,44,Lewis Hamilton HAM,Mercedes,51,1:43:44.291,25
+Baku City Circuit - Baku,2018-04-29,2,7,Kimi Räikkönen RAI,Ferrari,51,+2.460s,18
+Baku City Circuit - Baku,2018-04-29,3,11,Sergio Perez PER,Force India Mercedes,51,+4.024s,15
+Baku City Circuit - Baku,2018-04-29,4,5,Sebastian Vettel VET,Ferrari,51,+5.329s,12
+Baku City Circuit - Baku,2018-04-29,5,55,Carlos Sainz SAI,Renault,51,+7.515s,10
+Baku City Circuit - Baku,2018-04-29,6,16,Charles Leclerc LEC,Sauber Ferrari,51,+9.158s,8
+Baku City Circuit - Baku,2018-04-29,7,14,Fernando Alonso ALO,McLaren Renault,51,+10.931s,6
+Baku City Circuit - Baku,2018-04-29,8,18,Lance Stroll STR,Williams Mercedes,51,+12.546s,4
+Baku City Circuit - Baku,2018-04-29,9,2,Stoffel Vandoorne VAN,McLaren Renault,51,+14.152s,2
+Baku City Circuit - Baku,2018-04-29,10,28,Brendon Hartley HAR,Scuderia Toro Rosso Honda,51,+18.030s,1
+Baku City Circuit - Baku,2018-04-29,11,9,Marcus Ericsson ERI,Sauber Ferrari,51,+18.512s,0
+Baku City Circuit - Baku,2018-04-29,12,10,Pierre Gasly GAS,Scuderia Toro Rosso Honda,51,+24.720s,0
+Baku City Circuit - Baku,2018-04-29,13,20,Kevin Magnussen MAG,Haas Ferrari,51,+40.663s,0
+Baku City Circuit - Baku,2018-04-29,14,77,Valtteri Bottas BOT,Mercedes,48,DNF,0
+Baku City Circuit - Baku,2018-04-29,NC,8,Romain Grosjean GRO,Haas Ferrari,42,DNF,0
+Baku City Circuit - Baku,2018-04-29,NC,33,Max Verstappen VER,Red Bull Racing TAG Heuer,39,DNF,0
+Baku City Circuit - Baku,2018-04-29,NC,3,Daniel Ricciardo RIC,Red Bull Racing TAG Heuer,39,DNF,0
+Baku City Circuit - Baku,2018-04-29,NC,27,Nico Hulkenberg HUL,Renault,10,DNF,0
+Baku City Circuit - Baku,2018-04-29,NC,31,Esteban Ocon OCO,Force India Mercedes,0,DNF,0
+Baku City Circuit - Baku,2018-04-29,NC,35,Sergey Sirotkin SIR,Williams Mercedes,0,DNF,0
+Circuit de Barcelona-Catalunya - Barcelona,2018-05-13,1,44,Lewis Hamilton HAM,Mercedes,66,1:35:29.972,25
+Circuit de Barcelona-Catalunya - Barcelona,2018-05-13,2,77,Valtteri Bottas BOT,Mercedes,66,+20.593s,18
+Circuit de Barcelona-Catalunya - Barcelona,2018-05-13,3,33,Max Verstappen VER,Red Bull Racing TAG Heuer,66,+26.873s,15
+Circuit de Barcelona-Catalunya - Barcelona,2018-05-13,4,5,Sebastian Vettel VET,Ferrari,66,+27.584s,12
+Circuit de Barcelona-Catalunya - Barcelona,2018-05-13,5,3,Daniel Ricciardo RIC,Red Bull Racing TAG Heuer,66,+50.058s,10
+Circuit de Barcelona-Catalunya - Barcelona,2018-05-13,6,20,Kevin Magnussen MAG,Haas Ferrari,65,+1 lap,8
+Circuit de Barcelona-Catalunya - Barcelona,2018-05-13,7,55,Carlos Sainz SAI,Renault,65,+1 lap,6
+Circuit de Barcelona-Catalunya - Barcelona,2018-05-13,8,14,Fernando Alonso ALO,McLaren Renault,65,+1 lap,4
+Circuit de Barcelona-Catalunya - Barcelona,2018-05-13,9,11,Sergio Perez PER,Force India Mercedes,64,+2 laps,2
+Circuit de Barcelona-Catalunya - Barcelona,2018-05-13,10,16,Charles Leclerc LEC,Sauber Ferrari,64,+2 laps,1
+Circuit de Barcelona-Catalunya - Barcelona,2018-05-13,11,18,Lance Stroll STR,Williams Mercedes,64,+2 laps,0
+Circuit de Barcelona-Catalunya - Barcelona,2018-05-13,12,28,Brendon Hartley HAR,Scuderia Toro Rosso Honda,64,+2 laps,0
+Circuit de Barcelona-Catalunya - Barcelona,2018-05-13,13,9,Marcus Ericsson ERI,Sauber Ferrari,64,+2 laps,0
+Circuit de Barcelona-Catalunya - Barcelona,2018-05-13,14,35,Sergey Sirotkin SIR,Williams Mercedes,63,+3 laps,0
+Circuit de Barcelona-Catalunya - Barcelona,2018-05-13,NC,2,Stoffel Vandoorne VAN,McLaren Renault,45,DNF,0
+Circuit de Barcelona-Catalunya - Barcelona,2018-05-13,NC,31,Esteban Ocon OCO,Force India Mercedes,38,DNF,0
+Circuit de Barcelona-Catalunya - Barcelona,2018-05-13,NC,7,Kimi Räikkönen RAI,Ferrari,25,DNF,0
+Circuit de Barcelona-Catalunya - Barcelona,2018-05-13,NC,8,Romain Grosjean GRO,Haas Ferrari,0,DNF,0
+Circuit de Barcelona-Catalunya - Barcelona,2018-05-13,NC,10,Pierre Gasly GAS,Scuderia Toro Rosso Honda,0,DNF,0
+Circuit de Barcelona-Catalunya - Barcelona,2018-05-13,NC,27,Nico Hulkenberg HUL,Renault,0,DNF,0
+Circuit de Monaco - Monte Carlo,2018-05-27,1,3,Daniel Ricciardo RIC,Red Bull Racing TAG Heuer,78,1:42:54.807,25
+Circuit de Monaco - Monte Carlo,2018-05-27,2,5,Sebastian Vettel VET,Ferrari,78,+7.336s,18
+Circuit de Monaco - Monte Carlo,2018-05-27,3,44,Lewis Hamilton HAM,Mercedes,78,+17.013s,15
+Circuit de Monaco - Monte Carlo,2018-05-27,4,7,Kimi Räikkönen RAI,Ferrari,78,+18.127s,12
+Circuit de Monaco - Monte Carlo,2018-05-27,5,77,Valtteri Bottas BOT,Mercedes,78,+18.822s,10
+Circuit de Monaco - Monte Carlo,2018-05-27,6,31,Esteban Ocon OCO,Force India Mercedes,78,+23.667s,8
+Circuit de Monaco - Monte Carlo,2018-05-27,7,10,Pierre Gasly GAS,Scuderia Toro Rosso Honda,78,+24.331s,6
+Circuit de Monaco - Monte Carlo,2018-05-27,8,27,Nico Hulkenberg HUL,Renault,78,+24.839s,4
+Circuit de Monaco - Monte Carlo,2018-05-27,9,33,Max Verstappen VER,Red Bull Racing TAG Heuer,78,+25.317s,2
+Circuit de Monaco - Monte Carlo,2018-05-27,10,55,Carlos Sainz SAI,Renault,78,+69.013s,1
+Circuit de Monaco - Monte Carlo,2018-05-27,11,9,Marcus Ericsson ERI,Sauber Ferrari,78,+69.864s,0
+Circuit de Monaco - Monte Carlo,2018-05-27,12,11,Sergio Perez PER,Force India Mercedes,78,+70.461s,0
+Circuit de Monaco - Monte Carlo,2018-05-27,13,20,Kevin Magnussen MAG,Haas Ferrari,78,+74.823s,0
+Circuit de Monaco - Monte Carlo,2018-05-27,14,2,Stoffel Vandoorne VAN,McLaren Renault,77,+1 lap,0
+Circuit de Monaco - Monte Carlo,2018-05-27,15,8,Romain Grosjean GRO,Haas Ferrari,77,+1 lap,0
+Circuit de Monaco - Monte Carlo,2018-05-27,16,35,Sergey Sirotkin SIR,Williams Mercedes,77,+1 lap,0
+Circuit de Monaco - Monte Carlo,2018-05-27,17,18,Lance Stroll STR,Williams Mercedes,76,+2 laps,0
+Circuit de Monaco - Monte Carlo,2018-05-27,18,16,Charles Leclerc LEC,Sauber Ferrari,70,DNF,0
+Circuit de Monaco - Monte Carlo,2018-05-27,19,28,Brendon Hartley HAR,Scuderia Toro Rosso Honda,70,DNF,0
+Circuit de Monaco - Monte Carlo,2018-05-27,NC,14,Fernando Alonso ALO,McLaren Renault,52,DNF,0
+Circuit Gilles-Villeneuve - Montréal,2018-06-10,1,5,Sebastian Vettel VET,Ferrari,68,1:28:31.377,25
+Circuit Gilles-Villeneuve - Montréal,2018-06-10,2,77,Valtteri Bottas BOT,Mercedes,68,+7.376s,18
+Circuit Gilles-Villeneuve - Montréal,2018-06-10,3,33,Max Verstappen VER,Red Bull Racing TAG Heuer,68,+8.360s,15
+Circuit Gilles-Villeneuve - Montréal,2018-06-10,4,3,Daniel Ricciardo RIC,Red Bull Racing TAG Heuer,68,+20.892s,12
+Circuit Gilles-Villeneuve - Montréal,2018-06-10,5,44,Lewis Hamilton HAM,Mercedes,68,+21.559s,10
+Circuit Gilles-Villeneuve - Montréal,2018-06-10,6,7,Kimi Räikkönen RAI,Ferrari,68,+27.184s,8
+Circuit Gilles-Villeneuve - Montréal,2018-06-10,7,27,Nico Hulkenberg HUL,Renault,67,+1 lap,6
+Circuit Gilles-Villeneuve - Montréal,2018-06-10,8,55,Carlos Sainz SAI,Renault,67,+1 lap,4
+Circuit Gilles-Villeneuve - Montréal,2018-06-10,9,31,Esteban Ocon OCO,Force India Mercedes,67,+1 lap,2
+Circuit Gilles-Villeneuve - Montréal,2018-06-10,10,16,Charles Leclerc LEC,Sauber Ferrari,67,+1 lap,1
+Circuit Gilles-Villeneuve - Montréal,2018-06-10,11,10,Pierre Gasly GAS,Scuderia Toro Rosso Honda,67,+1 lap,0
+Circuit Gilles-Villeneuve - Montréal,2018-06-10,12,8,Romain Grosjean GRO,Haas Ferrari,67,+1 lap,0
+Circuit Gilles-Villeneuve - Montréal,2018-06-10,13,20,Kevin Magnussen MAG,Haas Ferrari,67,+1 lap,0
+Circuit Gilles-Villeneuve - Montréal,2018-06-10,14,11,Sergio Perez PER,Force India Mercedes,67,+1 lap,0
+Circuit Gilles-Villeneuve - Montréal,2018-06-10,15,9,Marcus Ericsson ERI,Sauber Ferrari,66,+2 laps,0
+Circuit Gilles-Villeneuve - Montréal,2018-06-10,16,2,Stoffel Vandoorne VAN,McLaren Renault,66,+2 laps,0
+Circuit Gilles-Villeneuve - Montréal,2018-06-10,17,35,Sergey Sirotkin SIR,Williams Mercedes,66,+2 laps,0
+Circuit Gilles-Villeneuve - Montréal,2018-06-10,NC,14,Fernando Alonso ALO,McLaren Renault,40,DNF,0
+Circuit Gilles-Villeneuve - Montréal,2018-06-10,NC,28,Brendon Hartley HAR,Scuderia Toro Rosso Honda,0,DNF,0
+Circuit Gilles-Villeneuve - Montréal,2018-06-10,NC,18,Lance Stroll STR,Williams Mercedes,0,DNF,0
+Circuit Paul Ricard - Le Castellet,2018-06-24,1,44,Lewis Hamilton HAM,Mercedes,53,1:30:11.385,25
+Circuit Paul Ricard - Le Castellet,2018-06-24,2,33,Max Verstappen VER,Red Bull Racing TAG Heuer,53,+7.090s,18
+Circuit Paul Ricard - Le Castellet,2018-06-24,3,7,Kimi Räikkönen RAI,Ferrari,53,+25.888s,15
+Circuit Paul Ricard - Le Castellet,2018-06-24,4,3,Daniel Ricciardo RIC,Red Bull Racing TAG Heuer,53,+34.736s,12
+Circuit Paul Ricard - Le Castellet,2018-06-24,5,5,Sebastian Vettel VET,Ferrari,53,+61.935s,10
+Circuit Paul Ricard - Le Castellet,2018-06-24,6,20,Kevin Magnussen MAG,Haas Ferrari,53,+79.364s,8
+Circuit Paul Ricard - Le Castellet,2018-06-24,7,77,Valtteri Bottas BOT,Mercedes,53,+80.632s,6
+Circuit Paul Ricard - Le Castellet,2018-06-24,8,55,Carlos Sainz SAI,Renault,53,+87.184s,4
+Circuit Paul Ricard - Le Castellet,2018-06-24,9,27,Nico Hulkenberg HUL,Renault,53,+91.989s,2
+Circuit Paul Ricard - Le Castellet,2018-06-24,10,16,Charles Leclerc LEC,Sauber Ferrari,53,+93.873s,1
+Circuit Paul Ricard - Le Castellet,2018-06-24,11,8,Romain Grosjean GRO,Haas Ferrari,52,+1 lap,0
+Circuit Paul Ricard - Le Castellet,2018-06-24,12,2,Stoffel Vandoorne VAN,McLaren Renault,52,+1 lap,0
+Circuit Paul Ricard - Le Castellet,2018-06-24,13,9,Marcus Ericsson ERI,Sauber Ferrari,52,+1 lap,0
+Circuit Paul Ricard - Le Castellet,2018-06-24,14,28,Brendon Hartley HAR,Scuderia Toro Rosso Honda,52,+1 lap,0
+Circuit Paul Ricard - Le Castellet,2018-06-24,15,35,Sergey Sirotkin SIR,Williams Mercedes,52,+1 lap,0
+Circuit Paul Ricard - Le Castellet,2018-06-24,16,14,Fernando Alonso ALO,McLaren Renault,50,DNF,0
+Circuit Paul Ricard - Le Castellet,2018-06-24,17,18,Lance Stroll STR,Williams Mercedes,48,DNF,0
+Circuit Paul Ricard - Le Castellet,2018-06-24,NC,11,Sergio Perez PER,Force India Mercedes,27,DNF,0
+Circuit Paul Ricard - Le Castellet,2018-06-24,NC,31,Esteban Ocon OCO,Force India Mercedes,0,DNF,0
+Circuit Paul Ricard - Le Castellet,2018-06-24,NC,10,Pierre Gasly GAS,Scuderia Toro Rosso Honda,0,DNF,0
+Red Bull Ring - Spielberg,2018-07-01,1,33,Max Verstappen VER,Red Bull Racing TAG Heuer,71,1:21:56.024,25
+Red Bull Ring - Spielberg,2018-07-01,2,7,Kimi Räikkönen RAI,Ferrari,71,+1.504s,18
+Red Bull Ring - Spielberg,2018-07-01,3,5,Sebastian Vettel VET,Ferrari,71,+3.181s,15
+Red Bull Ring - Spielberg,2018-07-01,4,8,Romain Grosjean GRO,Haas Ferrari,70,+1 lap,12
+Red Bull Ring - Spielberg,2018-07-01,5,20,Kevin Magnussen MAG,Haas Ferrari,70,+1 lap,10
+Red Bull Ring - Spielberg,2018-07-01,6,31,Esteban Ocon OCO,Force India Mercedes,70,+1 lap,8
+Red Bull Ring - Spielberg,2018-07-01,7,11,Sergio Perez PER,Force India Mercedes,70,+1 lap,6
+Red Bull Ring - Spielberg,2018-07-01,8,14,Fernando Alonso ALO,McLaren Renault,70,+1 lap,4
+Red Bull Ring - Spielberg,2018-07-01,9,16,Charles Leclerc LEC,Sauber Ferrari,70,+1 lap,2
+Red Bull Ring - Spielberg,2018-07-01,10,9,Marcus Ericsson ERI,Sauber Ferrari,70,+1 lap,1
+Red Bull Ring - Spielberg,2018-07-01,11,10,Pierre Gasly GAS,Scuderia Toro Rosso Honda,70,+1 lap,0
+Red Bull Ring - Spielberg,2018-07-01,12,55,Carlos Sainz SAI,Renault,70,+1 lap,0
+Red Bull Ring - Spielberg,2018-07-01,13,35,Sergey Sirotkin SIR,Williams Mercedes,69,+2 laps,0
+Red Bull Ring - Spielberg,2018-07-01,14,18,Lance Stroll STR,Williams Mercedes,69,+2 laps,0
+Red Bull Ring - Spielberg,2018-07-01,15,2,Stoffel Vandoorne VAN,McLaren Renault,65,DNF,0
+Red Bull Ring - Spielberg,2018-07-01,NC,44,Lewis Hamilton HAM,Mercedes,62,DNF,0
+Red Bull Ring - Spielberg,2018-07-01,NC,28,Brendon Hartley HAR,Scuderia Toro Rosso Honda,54,DNF,0
+Red Bull Ring - Spielberg,2018-07-01,NC,3,Daniel Ricciardo RIC,Red Bull Racing TAG Heuer,53,DNF,0
+Red Bull Ring - Spielberg,2018-07-01,NC,77,Valtteri Bottas BOT,Mercedes,13,DNF,0
+Red Bull Ring - Spielberg,2018-07-01,NC,27,Nico Hulkenberg HUL,Renault,11,DNF,0
+Silverstone Circuit - Silverstone,2018-07-08,1,5,Sebastian Vettel VET,Ferrari,52,1:27:29.784,25
+Silverstone Circuit - Silverstone,2018-07-08,2,44,Lewis Hamilton HAM,Mercedes,52,+2.264s,18
+Silverstone Circuit - Silverstone,2018-07-08,3,7,Kimi Räikkönen RAI,Ferrari,52,+3.652s,15
+Silverstone Circuit - Silverstone,2018-07-08,4,77,Valtteri Bottas BOT,Mercedes,52,+8.883s,12
+Silverstone Circuit - Silverstone,2018-07-08,5,3,Daniel Ricciardo RIC,Red Bull Racing TAG Heuer,52,+9.500s,10
+Silverstone Circuit - Silverstone,2018-07-08,6,27,Nico Hulkenberg HUL,Renault,52,+28.220s,8
+Silverstone Circuit - Silverstone,2018-07-08,7,31,Esteban Ocon OCO,Force India Mercedes,52,+29.930s,6
+Silverstone Circuit - Silverstone,2018-07-08,8,14,Fernando Alonso ALO,McLaren Renault,52,+31.115s,4
+Silverstone Circuit - Silverstone,2018-07-08,9,20,Kevin Magnussen MAG,Haas Ferrari,52,+33.188s,2
+Silverstone Circuit - Silverstone,2018-07-08,10,11,Sergio Perez PER,Force India Mercedes,52,+34.708s,1
+Silverstone Circuit - Silverstone,2018-07-08,11,2,Stoffel Vandoorne VAN,McLaren Renault,52,+35.774s,0
+Silverstone Circuit - Silverstone,2018-07-08,12,18,Lance Stroll STR,Williams Mercedes,52,+38.106s,0
+Silverstone Circuit - Silverstone,2018-07-08,13,10,Pierre Gasly GAS,Scuderia Toro Rosso Honda,52,+39.129s,0
+Silverstone Circuit - Silverstone,2018-07-08,14,35,Sergey Sirotkin SIR,Williams Mercedes,52,+48.113s,0
+Silverstone Circuit - Silverstone,2018-07-08,15,33,Max Verstappen VER,Red Bull Racing TAG Heuer,46,DNF,0
+Silverstone Circuit - Silverstone,2018-07-08,NC,8,Romain Grosjean GRO,Haas Ferrari,37,DNF,0
+Silverstone Circuit - Silverstone,2018-07-08,NC,55,Carlos Sainz SAI,Renault,37,DNF,0
+Silverstone Circuit - Silverstone,2018-07-08,NC,9,Marcus Ericsson ERI,Sauber Ferrari,31,DNF,0
+Silverstone Circuit - Silverstone,2018-07-08,NC,16,Charles Leclerc LEC,Sauber Ferrari,18,DNF,0
+Silverstone Circuit - Silverstone,2018-07-08,NC,28,Brendon Hartley HAR,Scuderia Toro Rosso Honda,1,DNF,0
+Hockenheimring - Hockenheim,2018-07-22,1,44,Lewis Hamilton HAM,Mercedes,67,1:32:29.845,25
+Hockenheimring - Hockenheim,2018-07-22,2,77,Valtteri Bottas BOT,Mercedes,67,+4.535s,18
+Hockenheimring - Hockenheim,2018-07-22,3,7,Kimi Räikkönen RAI,Ferrari,67,+6.732s,15
+Hockenheimring - Hockenheim,2018-07-22,4,33,Max Verstappen VER,Red Bull Racing TAG Heuer,67,+7.654s,12
+Hockenheimring - Hockenheim,2018-07-22,5,27,Nico Hulkenberg HUL,Renault,67,+26.609s,10
+Hockenheimring - Hockenheim,2018-07-22,6,8,Romain Grosjean GRO,Haas Ferrari,67,+28.871s,8
+Hockenheimring - Hockenheim,2018-07-22,7,11,Sergio Perez PER,Force India Mercedes,67,+30.556s,6
+Hockenheimring - Hockenheim,2018-07-22,8,31,Esteban Ocon OCO,Force India Mercedes,67,+31.750s,4
+Hockenheimring - Hockenheim,2018-07-22,9,9,Marcus Ericsson ERI,Sauber Ferrari,67,+32.362s,2
+Hockenheimring - Hockenheim,2018-07-22,10,28,Brendon Hartley HAR,Scuderia Toro Rosso Honda,67,+34.197s,1
+Hockenheimring - Hockenheim,2018-07-22,11,20,Kevin Magnussen MAG,Haas Ferrari,67,+34.919s,0
+Hockenheimring - Hockenheim,2018-07-22,12,55,Carlos Sainz SAI,Renault,67,+43.069s,0
+Hockenheimring - Hockenheim,2018-07-22,13,2,Stoffel Vandoorne VAN,McLaren Renault,67,+46.617s,0
+Hockenheimring - Hockenheim,2018-07-22,14,10,Pierre Gasly GAS,Scuderia Toro Rosso Honda,66,+1 lap,0
+Hockenheimring - Hockenheim,2018-07-22,15,16,Charles Leclerc LEC,Sauber Ferrari,66,+1 lap,0
+Hockenheimring - Hockenheim,2018-07-22,16,14,Fernando Alonso ALO,McLaren Renault,65,DNF,0
+Hockenheimring - Hockenheim,2018-07-22,NC,18,Lance Stroll STR,Williams Mercedes,53,DNF,0
+Hockenheimring - Hockenheim,2018-07-22,NC,5,Sebastian Vettel VET,Ferrari,51,DNF,0
+Hockenheimring - Hockenheim,2018-07-22,NC,35,Sergey Sirotkin SIR,Williams Mercedes,51,DNF,0
+Hockenheimring - Hockenheim,2018-07-22,NC,3,Daniel Ricciardo RIC,Red Bull Racing TAG Heuer,27,DNF,0
+Hungaroring - Budapest,2018-07-29,1,44,Lewis Hamilton HAM,Mercedes,70,1:37:16.427,25
+Hungaroring - Budapest,2018-07-29,2,5,Sebastian Vettel VET,Ferrari,70,+17.123s,18
+Hungaroring - Budapest,2018-07-29,3,7,Kimi Räikkönen RAI,Ferrari,70,+20.101s,15
+Hungaroring - Budapest,2018-07-29,4,3,Daniel Ricciardo RIC,Red Bull Racing TAG Heuer,70,+46.419s,12
+Hungaroring - Budapest,2018-07-29,5,77,Valtteri Bottas BOT,Mercedes,70,+60.000s,10
+Hungaroring - Budapest,2018-07-29,6,10,Pierre Gasly GAS,Scuderia Toro Rosso Honda,70,+73.273s,8
+Hungaroring - Budapest,2018-07-29,7,20,Kevin Magnussen MAG,Haas Ferrari,69,+1 lap,6
+Hungaroring - Budapest,2018-07-29,8,14,Fernando Alonso ALO,McLaren Renault,69,+1 lap,4
+Hungaroring - Budapest,2018-07-29,9,55,Carlos Sainz SAI,Renault,69,+1 lap,2
+Hungaroring - Budapest,2018-07-29,10,8,Romain Grosjean GRO,Haas Ferrari,69,+1 lap,1
+Hungaroring - Budapest,2018-07-29,11,28,Brendon Hartley HAR,Scuderia Toro Rosso Honda,69,+1 lap,0
+Hungaroring - Budapest,2018-07-29,12,27,Nico Hulkenberg HUL,Renault,69,+1 lap,0
+Hungaroring - Budapest,2018-07-29,13,31,Esteban Ocon OCO,Force India Mercedes,69,+1 lap,0
+Hungaroring - Budapest,2018-07-29,14,11,Sergio Perez PER,Force India Mercedes,69,+1 lap,0
+Hungaroring - Budapest,2018-07-29,15,9,Marcus Ericsson ERI,Sauber Ferrari,68,+2 laps,0
+Hungaroring - Budapest,2018-07-29,16,35,Sergey Sirotkin SIR,Williams Mercedes,68,+2 laps,0
+Hungaroring - Budapest,2018-07-29,17,18,Lance Stroll STR,Williams Mercedes,68,+2 laps,0
+Hungaroring - Budapest,2018-07-29,NC,2,Stoffel Vandoorne VAN,McLaren Renault,49,DNF,0
+Hungaroring - Budapest,2018-07-29,NC,33,Max Verstappen VER,Red Bull Racing TAG Heuer,5,DNF,0
+Hungaroring - Budapest,2018-07-29,NC,16,Charles Leclerc LEC,Sauber Ferrari,0,DNF,0
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2018-08-26,1,5,Sebastian Vettel VET,Ferrari,44,1:23:34.476,25
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2018-08-26,2,44,Lewis Hamilton HAM,Mercedes,44,+11.061s,18
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2018-08-26,3,33,Max Verstappen VER,Red Bull Racing TAG Heuer,44,+31.372s,15
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2018-08-26,4,77,Valtteri Bottas BOT,Mercedes,44,+68.605s,12
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2018-08-26,5,11,Sergio Perez PER,Force India Mercedes,44,+71.023s,10
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2018-08-26,6,31,Esteban Ocon OCO,Force India Mercedes,44,+79.520s,8
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2018-08-26,7,8,Romain Grosjean GRO,Haas Ferrari,44,+85.953s,6
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2018-08-26,8,20,Kevin Magnussen MAG,Haas Ferrari,44,+87.639s,4
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2018-08-26,9,10,Pierre Gasly GAS,Scuderia Toro Rosso Honda,44,+105.892s,2
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2018-08-26,10,9,Marcus Ericsson ERI,Sauber Ferrari,43,+1 lap,1
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2018-08-26,11,55,Carlos Sainz SAI,Renault,43,+1 lap,0
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2018-08-26,12,35,Sergey Sirotkin SIR,Williams Mercedes,43,+1 lap,0
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2018-08-26,13,18,Lance Stroll STR,Williams Mercedes,43,+1 lap,0
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2018-08-26,14,28,Brendon Hartley HAR,Scuderia Toro Rosso Honda,43,+1 lap,0
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2018-08-26,15,2,Stoffel Vandoorne VAN,McLaren Renault,43,+1 lap,0
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2018-08-26,NC,3,Daniel Ricciardo RIC,Red Bull Racing TAG Heuer,28,DNF,0
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2018-08-26,NC,7,Kimi Räikkönen RAI,Ferrari,8,DNF,0
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2018-08-26,NC,16,Charles Leclerc LEC,Sauber Ferrari,0,DNF,0
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2018-08-26,NC,14,Fernando Alonso ALO,McLaren Renault,0,DNF,0
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2018-08-26,NC,27,Nico Hulkenberg HUL,Renault,0,DNF,0
+Autodromo Nazionale Monza - Monza,2018-09-02,1,44,Lewis Hamilton HAM,Mercedes,53,1:16:54.484,25
+Autodromo Nazionale Monza - Monza,2018-09-02,2,7,Kimi Räikkönen RAI,Ferrari,53,+8.705s,18
+Autodromo Nazionale Monza - Monza,2018-09-02,3,77,Valtteri Bottas BOT,Mercedes,53,+14.066s,15
+Autodromo Nazionale Monza - Monza,2018-09-02,4,5,Sebastian Vettel VET,Ferrari,53,+16.151s,12
+Autodromo Nazionale Monza - Monza,2018-09-02,5,33,Max Verstappen VER,Red Bull Racing TAG Heuer,53,+18.208s,10
+Autodromo Nazionale Monza - Monza,2018-09-02,DQ,8,Romain Grosjean GRO,Haas Ferrari,53,+56.320s,0
+Autodromo Nazionale Monza - Monza,2018-09-02,6,31,Esteban Ocon OCO,Force India Mercedes,53,+57.761s,8
+Autodromo Nazionale Monza - Monza,2018-09-02,7,11,Sergio Perez PER,Force India Mercedes,53,+58.678s,6
+Autodromo Nazionale Monza - Monza,2018-09-02,8,55,Carlos Sainz SAI,Renault,53,+78.140s,4
+Autodromo Nazionale Monza - Monza,2018-09-02,9,18,Lance Stroll STR,Williams Mercedes,52,+1 lap,2
+Autodromo Nazionale Monza - Monza,2018-09-02,10,35,Sergey Sirotkin SIR,Williams Mercedes,52,+1 lap,1
+Autodromo Nazionale Monza - Monza,2018-09-02,11,16,Charles Leclerc LEC,Sauber Ferrari,52,+1 lap,0
+Autodromo Nazionale Monza - Monza,2018-09-02,12,2,Stoffel Vandoorne VAN,McLaren Renault,52,+1 lap,0
+Autodromo Nazionale Monza - Monza,2018-09-02,13,27,Nico Hulkenberg HUL,Renault,52,+1 lap,0
+Autodromo Nazionale Monza - Monza,2018-09-02,14,10,Pierre Gasly GAS,Scuderia Toro Rosso Honda,52,+1 lap,0
+Autodromo Nazionale Monza - Monza,2018-09-02,15,9,Marcus Ericsson ERI,Sauber Ferrari,52,+1 lap,0
+Autodromo Nazionale Monza - Monza,2018-09-02,16,20,Kevin Magnussen MAG,Haas Ferrari,52,+1 lap,0
+Autodromo Nazionale Monza - Monza,2018-09-02,NC,3,Daniel Ricciardo RIC,Red Bull Racing TAG Heuer,23,DNF,0
+Autodromo Nazionale Monza - Monza,2018-09-02,NC,14,Fernando Alonso ALO,McLaren Renault,9,DNF,0
+Autodromo Nazionale Monza - Monza,2018-09-02,NC,28,Brendon Hartley HAR,Scuderia Toro Rosso Honda,0,DNF,0
+Marina Bay Street Circuit - Singapore,2018-09-16,1,44,Lewis Hamilton HAM,Mercedes,61,1:51:11.611,25
+Marina Bay Street Circuit - Singapore,2018-09-16,2,33,Max Verstappen VER,Red Bull Racing TAG Heuer,61,+8.961s,18
+Marina Bay Street Circuit - Singapore,2018-09-16,3,5,Sebastian Vettel VET,Ferrari,61,+39.945s,15
+Marina Bay Street Circuit - Singapore,2018-09-16,4,77,Valtteri Bottas BOT,Mercedes,61,+51.930s,12
+Marina Bay Street Circuit - Singapore,2018-09-16,5,7,Kimi Räikkönen RAI,Ferrari,61,+53.001s,10
+Marina Bay Street Circuit - Singapore,2018-09-16,6,3,Daniel Ricciardo RIC,Red Bull Racing TAG Heuer,61,+53.982s,8
+Marina Bay Street Circuit - Singapore,2018-09-16,7,14,Fernando Alonso ALO,McLaren Renault,61,+103.011s,6
+Marina Bay Street Circuit - Singapore,2018-09-16,8,55,Carlos Sainz SAI,Renault,60,+1 lap,4
+Marina Bay Street Circuit - Singapore,2018-09-16,9,16,Charles Leclerc LEC,Sauber Ferrari,60,+1 lap,2
+Marina Bay Street Circuit - Singapore,2018-09-16,10,27,Nico Hulkenberg HUL,Renault,60,+1 lap,1
+Marina Bay Street Circuit - Singapore,2018-09-16,11,9,Marcus Ericsson ERI,Sauber Ferrari,60,+1 lap,0
+Marina Bay Street Circuit - Singapore,2018-09-16,12,2,Stoffel Vandoorne VAN,McLaren Renault,60,+1 lap,0
+Marina Bay Street Circuit - Singapore,2018-09-16,13,10,Pierre Gasly GAS,Scuderia Toro Rosso Honda,60,+1 lap,0
+Marina Bay Street Circuit - Singapore,2018-09-16,14,18,Lance Stroll STR,Williams Mercedes,60,+1 lap,0
+Marina Bay Street Circuit - Singapore,2018-09-16,15,8,Romain Grosjean GRO,Haas Ferrari,60,+1 lap,0
+Marina Bay Street Circuit - Singapore,2018-09-16,16,11,Sergio Perez PER,Force India Mercedes,60,+1 lap,0
+Marina Bay Street Circuit - Singapore,2018-09-16,17,28,Brendon Hartley HAR,Scuderia Toro Rosso Honda,60,+1 lap,0
+Marina Bay Street Circuit - Singapore,2018-09-16,18,20,Kevin Magnussen MAG,Haas Ferrari,59,+2 laps,0
+Marina Bay Street Circuit - Singapore,2018-09-16,19,35,Sergey Sirotkin SIR,Williams Mercedes,59,+2 laps,0
+Marina Bay Street Circuit - Singapore,2018-09-16,NC,31,Esteban Ocon OCO,Force India Mercedes,0,DNF,0
+Sochi Autodrom - Sochi,2018-09-30,1,44,Lewis Hamilton HAM,Mercedes,53,1:27:25.181,25
+Sochi Autodrom - Sochi,2018-09-30,2,77,Valtteri Bottas BOT,Mercedes,53,+2.545s,18
+Sochi Autodrom - Sochi,2018-09-30,3,5,Sebastian Vettel VET,Ferrari,53,+7.487s,15
+Sochi Autodrom - Sochi,2018-09-30,4,7,Kimi Räikkönen RAI,Ferrari,53,+16.543s,12
+Sochi Autodrom - Sochi,2018-09-30,5,33,Max Verstappen VER,Red Bull Racing TAG Heuer,53,+31.016s,10
+Sochi Autodrom - Sochi,2018-09-30,6,3,Daniel Ricciardo RIC,Red Bull Racing TAG Heuer,53,+80.451s,8
+Sochi Autodrom - Sochi,2018-09-30,7,16,Charles Leclerc LEC,Sauber Ferrari,53,+98.390s,6
+Sochi Autodrom - Sochi,2018-09-30,8,20,Kevin Magnussen MAG,Haas Ferrari,52,+1 lap,4
+Sochi Autodrom - Sochi,2018-09-30,9,31,Esteban Ocon OCO,Force India Mercedes,52,+1 lap,2
+Sochi Autodrom - Sochi,2018-09-30,10,11,Sergio Perez PER,Force India Mercedes,52,+1 lap,1
+Sochi Autodrom - Sochi,2018-09-30,11,8,Romain Grosjean GRO,Haas Ferrari,52,+1 lap,0
+Sochi Autodrom - Sochi,2018-09-30,12,27,Nico Hulkenberg HUL,Renault,52,+1 lap,0
+Sochi Autodrom - Sochi,2018-09-30,13,9,Marcus Ericsson ERI,Sauber Ferrari,52,+1 lap,0
+Sochi Autodrom - Sochi,2018-09-30,14,14,Fernando Alonso ALO,McLaren Renault,52,+1 lap,0
+Sochi Autodrom - Sochi,2018-09-30,15,18,Lance Stroll STR,Williams Mercedes,52,+1 lap,0
+Sochi Autodrom - Sochi,2018-09-30,16,2,Stoffel Vandoorne VAN,McLaren Renault,51,+2 laps,0
+Sochi Autodrom - Sochi,2018-09-30,17,55,Carlos Sainz SAI,Renault,51,+2 laps,0
+Sochi Autodrom - Sochi,2018-09-30,18,35,Sergey Sirotkin SIR,Williams Mercedes,51,+2 laps,0
+Sochi Autodrom - Sochi,2018-09-30,NC,10,Pierre Gasly GAS,Scuderia Toro Rosso Honda,4,DNF,0
+Sochi Autodrom - Sochi,2018-09-30,NC,28,Brendon Hartley HAR,Scuderia Toro Rosso Honda,4,DNF,0
+Suzuka International Racing Course - Suzuka,2018-10-07,1,44,Lewis Hamilton HAM,Mercedes,53,1:27:17.062,25
+Suzuka International Racing Course - Suzuka,2018-10-07,2,77,Valtteri Bottas BOT,Mercedes,53,+12.919s,18
+Suzuka International Racing Course - Suzuka,2018-10-07,3,33,Max Verstappen VER,Red Bull Racing TAG Heuer,53,+14.295s,15
+Suzuka International Racing Course - Suzuka,2018-10-07,4,3,Daniel Ricciardo RIC,Red Bull Racing TAG Heuer,53,+19.495s,12
+Suzuka International Racing Course - Suzuka,2018-10-07,5,7,Kimi Räikkönen RAI,Ferrari,53,+50.998s,10
+Suzuka International Racing Course - Suzuka,2018-10-07,6,5,Sebastian Vettel VET,Ferrari,53,+69.873s,8
+Suzuka International Racing Course - Suzuka,2018-10-07,7,11,Sergio Perez PER,Force India Mercedes,53,+79.379s,6
+Suzuka International Racing Course - Suzuka,2018-10-07,8,8,Romain Grosjean GRO,Haas Ferrari,53,+87.198s,4
+Suzuka International Racing Course - Suzuka,2018-10-07,9,31,Esteban Ocon OCO,Force India Mercedes,53,+88.055s,2
+Suzuka International Racing Course - Suzuka,2018-10-07,10,55,Carlos Sainz SAI,Renault,52,+1 lap,1
+Suzuka International Racing Course - Suzuka,2018-10-07,11,10,Pierre Gasly GAS,Scuderia Toro Rosso Honda,52,+1 lap,0
+Suzuka International Racing Course - Suzuka,2018-10-07,12,9,Marcus Ericsson ERI,Sauber Ferrari,52,+1 lap,0
+Suzuka International Racing Course - Suzuka,2018-10-07,13,28,Brendon Hartley HAR,Scuderia Toro Rosso Honda,52,+1 lap,0
+Suzuka International Racing Course - Suzuka,2018-10-07,14,14,Fernando Alonso ALO,McLaren Renault,52,+1 lap,0
+Suzuka International Racing Course - Suzuka,2018-10-07,15,2,Stoffel Vandoorne VAN,McLaren Renault,52,+1 lap,0
+Suzuka International Racing Course - Suzuka,2018-10-07,16,35,Sergey Sirotkin SIR,Williams Mercedes,52,+1 lap,0
+Suzuka International Racing Course - Suzuka,2018-10-07,17,18,Lance Stroll STR,Williams Mercedes,52,+1 lap,0
+Suzuka International Racing Course - Suzuka,2018-10-07,NC,16,Charles Leclerc LEC,Sauber Ferrari,38,DNF,0
+Suzuka International Racing Course - Suzuka,2018-10-07,NC,27,Nico Hulkenberg HUL,Renault,37,DNF,0
+Suzuka International Racing Course - Suzuka,2018-10-07,NC,20,Kevin Magnussen MAG,Haas Ferrari,8,DNF,0
+Circuit of The Americas - Austin,2018-10-21,1,7,Kimi Räikkönen RAI,Ferrari,56,1:34:18.643,25
+Circuit of The Americas - Austin,2018-10-21,2,33,Max Verstappen VER,Red Bull Racing TAG Heuer,56,+1.281s,18
+Circuit of The Americas - Austin,2018-10-21,3,44,Lewis Hamilton HAM,Mercedes,56,+2.342s,15
+Circuit of The Americas - Austin,2018-10-21,4,5,Sebastian Vettel VET,Ferrari,56,+18.222s,12
+Circuit of The Americas - Austin,2018-10-21,5,77,Valtteri Bottas BOT,Mercedes,56,+24.744s,10
+Circuit of The Americas - Austin,2018-10-21,6,27,Nico Hulkenberg HUL,Renault,56,+87.210s,8
+Circuit of The Americas - Austin,2018-10-21,7,55,Carlos Sainz SAI,Renault,56,+94.994s,6
+Circuit of The Americas - Austin,2018-10-21,DQ,31,Esteban Ocon OCO,Force India Mercedes,56,+99.288s,0
+Circuit of The Americas - Austin,2018-10-21,DQ,20,Kevin Magnussen MAG,Haas Ferrari,56,+100.657s,0
+Circuit of The Americas - Austin,2018-10-21,8,11,Sergio Perez PER,Force India Mercedes,56,+101.080s,4
+Circuit of The Americas - Austin,2018-10-21,9,28,Brendon Hartley HAR,Scuderia Toro Rosso Honda,55,+1 lap,2
+Circuit of The Americas - Austin,2018-10-21,10,9,Marcus Ericsson ERI,Sauber Ferrari,55,+1 lap,1
+Circuit of The Americas - Austin,2018-10-21,11,2,Stoffel Vandoorne VAN,McLaren Renault,55,+1 lap,0
+Circuit of The Americas - Austin,2018-10-21,12,10,Pierre Gasly GAS,Scuderia Toro Rosso Honda,55,+1 lap,0
+Circuit of The Americas - Austin,2018-10-21,13,35,Sergey Sirotkin SIR,Williams Mercedes,55,+1 lap,0
+Circuit of The Americas - Austin,2018-10-21,14,18,Lance Stroll STR,Williams Mercedes,54,+2 laps,0
+Circuit of The Americas - Austin,2018-10-21,NC,16,Charles Leclerc LEC,Sauber Ferrari,31,DNF,0
+Circuit of The Americas - Austin,2018-10-21,NC,3,Daniel Ricciardo RIC,Red Bull Racing TAG Heuer,8,DNF,0
+Circuit of The Americas - Austin,2018-10-21,NC,8,Romain Grosjean GRO,Haas Ferrari,2,DNF,0
+Circuit of The Americas - Austin,2018-10-21,NC,14,Fernando Alonso ALO,McLaren Renault,1,DNF,0
+Autódromo Hermanos Rodríguez - Mexico City,2018-10-28,1,33,Max Verstappen VER,Red Bull Racing TAG Heuer,71,1:38:28.851,25
+Autódromo Hermanos Rodríguez - Mexico City,2018-10-28,2,5,Sebastian Vettel VET,Ferrari,71,+17.316s,18
+Autódromo Hermanos Rodríguez - Mexico City,2018-10-28,3,7,Kimi Räikkönen RAI,Ferrari,71,+49.914s,15
+Autódromo Hermanos Rodríguez - Mexico City,2018-10-28,4,44,Lewis Hamilton HAM,Mercedes,71,+78.738s,12
+Autódromo Hermanos Rodríguez - Mexico City,2018-10-28,5,77,Valtteri Bottas BOT,Mercedes,70,+1 lap,10
+Autódromo Hermanos Rodríguez - Mexico City,2018-10-28,6,27,Nico Hulkenberg HUL,Renault,69,+2 laps,8
+Autódromo Hermanos Rodríguez - Mexico City,2018-10-28,7,16,Charles Leclerc LEC,Sauber Ferrari,69,+2 laps,6
+Autódromo Hermanos Rodríguez - Mexico City,2018-10-28,8,2,Stoffel Vandoorne VAN,McLaren Renault,69,+2 laps,4
+Autódromo Hermanos Rodríguez - Mexico City,2018-10-28,9,9,Marcus Ericsson ERI,Sauber Ferrari,69,+2 laps,2
+Autódromo Hermanos Rodríguez - Mexico City,2018-10-28,10,10,Pierre Gasly GAS,Scuderia Toro Rosso Honda,69,+2 laps,1
+Autódromo Hermanos Rodríguez - Mexico City,2018-10-28,11,31,Esteban Ocon OCO,Force India Mercedes,69,+2 laps,0
+Autódromo Hermanos Rodríguez - Mexico City,2018-10-28,12,18,Lance Stroll STR,Williams Mercedes,69,+2 laps,0
+Autódromo Hermanos Rodríguez - Mexico City,2018-10-28,13,35,Sergey Sirotkin SIR,Williams Mercedes,69,+2 laps,0
+Autódromo Hermanos Rodríguez - Mexico City,2018-10-28,14,28,Brendon Hartley HAR,Scuderia Toro Rosso Honda,69,+2 laps,0
+Autódromo Hermanos Rodríguez - Mexico City,2018-10-28,15,20,Kevin Magnussen MAG,Haas Ferrari,69,+2 laps,0
+Autódromo Hermanos Rodríguez - Mexico City,2018-10-28,16,8,Romain Grosjean GRO,Haas Ferrari,68,+3 laps,0
+Autódromo Hermanos Rodríguez - Mexico City,2018-10-28,NC,3,Daniel Ricciardo RIC,Red Bull Racing TAG Heuer,61,DNF,0
+Autódromo Hermanos Rodríguez - Mexico City,2018-10-28,NC,11,Sergio Perez PER,Force India Mercedes,38,DNF,0
+Autódromo Hermanos Rodríguez - Mexico City,2018-10-28,NC,55,Carlos Sainz SAI,Renault,28,DNF,0
+Autódromo Hermanos Rodríguez - Mexico City,2018-10-28,NC,14,Fernando Alonso ALO,McLaren Renault,3,DNF,0
+Autódromo José Carlos Pace - São Paulo,2018-11-11,1,44,Lewis Hamilton HAM,Mercedes,71,1:27:09.066,25
+Autódromo José Carlos Pace - São Paulo,2018-11-11,2,33,Max Verstappen VER,Red Bull Racing TAG Heuer,71,+1.469s,18
+Autódromo José Carlos Pace - São Paulo,2018-11-11,3,7,Kimi Räikkönen RAI,Ferrari,71,+4.764s,15
+Autódromo José Carlos Pace - São Paulo,2018-11-11,4,3,Daniel Ricciardo RIC,Red Bull Racing TAG Heuer,71,+5.193s,12
+Autódromo José Carlos Pace - São Paulo,2018-11-11,5,77,Valtteri Bottas BOT,Mercedes,71,+22.943s,10
+Autódromo José Carlos Pace - São Paulo,2018-11-11,6,5,Sebastian Vettel VET,Ferrari,71,+26.997s,8
+Autódromo José Carlos Pace - São Paulo,2018-11-11,7,16,Charles Leclerc LEC,Sauber Ferrari,71,+44.199s,6
+Autódromo José Carlos Pace - São Paulo,2018-11-11,8,8,Romain Grosjean GRO,Haas Ferrari,71,+51.230s,4
+Autódromo José Carlos Pace - São Paulo,2018-11-11,9,20,Kevin Magnussen MAG,Haas Ferrari,71,+52.857s,2
+Autódromo José Carlos Pace - São Paulo,2018-11-11,10,11,Sergio Perez PER,Force India Mercedes,70,+1 lap,1
+Autódromo José Carlos Pace - São Paulo,2018-11-11,11,28,Brendon Hartley HAR,Scuderia Toro Rosso Honda,70,+1 lap,0
+Autódromo José Carlos Pace - São Paulo,2018-11-11,12,55,Carlos Sainz SAI,Renault,70,+1 lap,0
+Autódromo José Carlos Pace - São Paulo,2018-11-11,13,10,Pierre Gasly GAS,Scuderia Toro Rosso Honda,70,+1 lap,0
+Autódromo José Carlos Pace - São Paulo,2018-11-11,14,31,Esteban Ocon OCO,Force India Mercedes,70,+1 lap,0
+Autódromo José Carlos Pace - São Paulo,2018-11-11,15,2,Stoffel Vandoorne VAN,McLaren Renault,70,+1 lap,0
+Autódromo José Carlos Pace - São Paulo,2018-11-11,16,35,Sergey Sirotkin SIR,Williams Mercedes,69,+2 laps,0
+Autódromo José Carlos Pace - São Paulo,2018-11-11,17,14,Fernando Alonso ALO,McLaren Renault,69,+2 laps,0
+Autódromo José Carlos Pace - São Paulo,2018-11-11,18,18,Lance Stroll STR,Williams Mercedes,69,+2 laps,0
+Autódromo José Carlos Pace - São Paulo,2018-11-11,NC,27,Nico Hulkenberg HUL,Renault,32,DNF,0
+Autódromo José Carlos Pace - São Paulo,2018-11-11,NC,9,Marcus Ericsson ERI,Sauber Ferrari,20,DNF,0
+Yas Marina Circuit - Yas Marina,2018-11-25,1,44,Lewis Hamilton HAM,Mercedes,55,1:39:40.382,25
+Yas Marina Circuit - Yas Marina,2018-11-25,2,5,Sebastian Vettel VET,Ferrari,55,+2.581s,18
+Yas Marina Circuit - Yas Marina,2018-11-25,3,33,Max Verstappen VER,Red Bull Racing TAG Heuer,55,+12.706s,15
+Yas Marina Circuit - Yas Marina,2018-11-25,4,3,Daniel Ricciardo RIC,Red Bull Racing TAG Heuer,55,+15.379s,12
+Yas Marina Circuit - Yas Marina,2018-11-25,5,77,Valtteri Bottas BOT,Mercedes,55,+47.957s,10
+Yas Marina Circuit - Yas Marina,2018-11-25,6,55,Carlos Sainz SAI,Renault,55,+72.548s,8
+Yas Marina Circuit - Yas Marina,2018-11-25,7,16,Charles Leclerc LEC,Sauber Ferrari,55,+90.789s,6
+Yas Marina Circuit - Yas Marina,2018-11-25,8,11,Sergio Perez PER,Force India Mercedes,55,+91.275s,4
+Yas Marina Circuit - Yas Marina,2018-11-25,9,8,Romain Grosjean GRO,Haas Ferrari,54,+1 lap,2
+Yas Marina Circuit - Yas Marina,2018-11-25,10,20,Kevin Magnussen MAG,Haas Ferrari,54,+1 lap,1
+Yas Marina Circuit - Yas Marina,2018-11-25,11,14,Fernando Alonso ALO,McLaren Renault,54,+1 lap,0
+Yas Marina Circuit - Yas Marina,2018-11-25,12,28,Brendon Hartley HAR,Scuderia Toro Rosso Honda,54,+1 lap,0
+Yas Marina Circuit - Yas Marina,2018-11-25,13,18,Lance Stroll STR,Williams Mercedes,54,+1 lap,0
+Yas Marina Circuit - Yas Marina,2018-11-25,14,2,Stoffel Vandoorne VAN,McLaren Renault,54,+1 lap,0
+Yas Marina Circuit - Yas Marina,2018-11-25,15,35,Sergey Sirotkin SIR,Williams Mercedes,54,+1 lap,0
+Yas Marina Circuit - Yas Marina,2018-11-25,NC,10,Pierre Gasly GAS,Scuderia Toro Rosso Honda,46,DNF,0
+Yas Marina Circuit - Yas Marina,2018-11-25,NC,31,Esteban Ocon OCO,Force India Mercedes,44,DNF,0
+Yas Marina Circuit - Yas Marina,2018-11-25,NC,9,Marcus Ericsson ERI,Sauber Ferrari,24,DNF,0
+Yas Marina Circuit - Yas Marina,2018-11-25,NC,7,Kimi Räikkönen RAI,Ferrari,6,DNF,0
+Yas Marina Circuit - Yas Marina,2018-11-25,NC,27,Nico Hulkenberg HUL,Renault,0,DNF,0
