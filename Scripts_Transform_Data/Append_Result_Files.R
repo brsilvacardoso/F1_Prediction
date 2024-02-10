@@ -1,5 +1,3 @@
-
-
 # Setting libraries -------------------------------------------------------
 
 library(lubridate)
@@ -110,8 +108,17 @@ races_2018_2023_appended$Driver <-
 View(races_2018_2023_appended)
 
 
+
+# Adding True or False winner column  -------------------------------------
+
+races_2018_2023_appended <-
+  mutate(races_2018_2023_appended, Is_Winner = Pos == 1)
+
+View(races_2018_2023_appended)
+
+
 # Saving the dataframe ----------------------------------------------------
 
 write.csv(races_2018_2023_appended,
-          "./Raw_Files/races_2018_2023_appended.csv",
+          "./Clean_Files/races_2018_2023_appended.csv",
           row.names = FALSE)
