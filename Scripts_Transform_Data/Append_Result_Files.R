@@ -1,3 +1,9 @@
+
+
+# Setting libraries -------------------------------------------------------
+
+library(lubridate)
+
 # Setting directories -----------------------------------------------------
 
 #Checking the directory
@@ -12,7 +18,7 @@ file_names <-
              pattern = "\\.csv$",
              full.names = TRUE)
 
-#print(file_names)
+print(file_names)
 
 # Manipulating the files --------------------------------------------------
 
@@ -32,7 +38,7 @@ for (file_name in file_names) {
 # Combine all data frames into a single data frame
 races_2018_2023_appended <- do.call(rbind, all_files)
 
-View(races_2018_2023_appended)
+#View(races_2018_2023_appended)
 
 
 # Transform nc to order position ---------------------------
@@ -58,6 +64,47 @@ races_2018_2023_appended$Pos <-
 
 races_2018_2023_appended$Pos <-
   zoo::na.locf(races_2018_2023_appended$Pos, fromLast = FALSE)
+
+
+#View(races_2018_2023_appended)
+
+
+# Creating a column to year -----------------------------------------------
+
+#Converting the column date from char to Date
+
+races_2018_2023_appended$Date <-
+  as.Date(races_2018_2023_appended$Date, format = "%Y-%m-%d")
+print(class(races_2018_2023_appended$Date))
+
+#View(races_2018_2023_appended)
+
+races_2018_2023_appended$Year <- year(races_2018_2023_appended$Date)
+
+View(races_2018_2023_appended)
+
+
+
+
+# #Creating a column to driver name abbreviation --------------------------
+
+races_2018_2023_appended$Driver_Name_Abreviation <-
+  substr(
+    races_2018_2023_appended$Driver,
+    nchar(races_2018_2023_appended$Driver) - 2,
+    nchar(races_2018_2023_appended$Driver)
+  )
+
+View(races_2018_2023_appended)
+
+
+
+# Cleaning the Driver column ----------------------------------------------
+
+races_2018_2023_appended$Driver <-
+  substr(races_2018_2023_appended$Driver,
+         1,
+         nchar(races_2018_2023_appended$Driver) - 4)
 
 
 View(races_2018_2023_appended)
