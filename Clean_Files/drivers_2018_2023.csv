@@ -1,132 +1,38 @@
-Driver,Driver_Name_Abbreviation,Car,Year,ID
-Sebastian Vettel,VET,Ferrari,2018,VET_Ferrari_2018
-Lewis Hamilton,HAM,Mercedes,2018,HAM_Mercedes_2018
-Kimi Räikkönen,RAI,Ferrari,2018,RAI_Ferrari_2018
-Daniel Ricciardo,RIC,Red Bull Racing TAG Heuer,2018,RIC_Red Bull Racing TAG Heuer_2018
-Fernando Alonso,ALO,McLaren Renault,2018,ALO_McLaren Renault_2018
-Max Verstappen,VER,Red Bull Racing TAG Heuer,2018,VER_Red Bull Racing TAG Heuer_2018
-Nico Hulkenberg,HUL,Renault,2018,HUL_Renault_2018
-Valtteri Bottas,BOT,Mercedes,2018,BOT_Mercedes_2018
-Stoffel Vandoorne,VAN,McLaren Renault,2018,VAN_McLaren Renault_2018
-Carlos Sainz,SAI,Renault,2018,SAI_Renault_2018
-Sergio Perez,PER,Force India Mercedes,2018,PER_Force India Mercedes_2018
-Esteban Ocon,OCO,Force India Mercedes,2018,OCO_Force India Mercedes_2018
-Charles Leclerc,LEC,Sauber Ferrari,2018,LEC_Sauber Ferrari_2018
-Lance Stroll,STR,Williams Mercedes,2018,STR_Williams Mercedes_2018
-Brendon Hartley,HAR,Scuderia Toro Rosso Honda,2018,HAR_Scuderia Toro Rosso Honda_2018
-Romain Grosjean,GRO,Haas Ferrari,2018,GRO_Haas Ferrari_2018
-Kevin Magnussen,MAG,Haas Ferrari,2018,MAG_Haas Ferrari_2018
-Pierre Gasly,GAS,Scuderia Toro Rosso Honda,2018,GAS_Scuderia Toro Rosso Honda_2018
-Marcus Ericsson,ERI,Sauber Ferrari,2018,ERI_Sauber Ferrari_2018
-Sergey Sirotkin,SIR,Williams Mercedes,2018,SIR_Williams Mercedes_2018
-Valtteri Bottas,BOT,Mercedes,2019,BOT_Mercedes_2019
-Lewis Hamilton,HAM,Mercedes,2019,HAM_Mercedes_2019
-Max Verstappen,VER,Red Bull Racing Honda,2019,VER_Red Bull Racing Honda_2019
-Sebastian Vettel,VET,Ferrari,2019,VET_Ferrari_2019
-Charles Leclerc,LEC,Ferrari,2019,LEC_Ferrari_2019
-Kevin Magnussen,MAG,Haas Ferrari,2019,MAG_Haas Ferrari_2019
-Nico Hulkenberg,HUL,Renault,2019,HUL_Renault_2019
-Kimi Räikkönen,RAI,Alfa Romeo Racing Ferrari,2019,RAI_Alfa Romeo Racing Ferrari_2019
-Lance Stroll,STR,Racing Point BWT Mercedes,2019,STR_Racing Point BWT Mercedes_2019
-Daniil Kvyat,KVY,Scuderia Toro Rosso Honda,2019,KVY_Scuderia Toro Rosso Honda_2019
-Pierre Gasly,GAS,Red Bull Racing Honda,2019,GAS_Red Bull Racing Honda_2019
-Lando Norris,NOR,McLaren Renault,2019,NOR_McLaren Renault_2019
-Sergio Perez,PER,Racing Point BWT Mercedes,2019,PER_Racing Point BWT Mercedes_2019
-Alexander Albon,ALB,Scuderia Toro Rosso Honda,2019,ALB_Scuderia Toro Rosso Honda_2019
-Antonio Giovinazzi,GIO,Alfa Romeo Racing Ferrari,2019,GIO_Alfa Romeo Racing Ferrari_2019
-George Russell,RUS,Williams Mercedes,2019,RUS_Williams Mercedes_2019
-Robert Kubica,KUB,Williams Mercedes,2019,KUB_Williams Mercedes_2019
-Romain Grosjean,GRO,Haas Ferrari,2019,GRO_Haas Ferrari_2019
-Daniel Ricciardo,RIC,Renault,2019,RIC_Renault_2019
-Carlos Sainz,SAI,McLaren Renault,2019,SAI_McLaren Renault_2019
-Alexander Albon,ALB,Red Bull Racing Honda,2019,ALB_Red Bull Racing Honda_2019
-Pierre Gasly,GAS,Scuderia Toro Rosso Honda,2019,GAS_Scuderia Toro Rosso Honda_2019
-Valtteri Bottas,BOT,Mercedes,2020,BOT_Mercedes_2020
-Charles Leclerc,LEC,Ferrari,2020,LEC_Ferrari_2020
-Lando Norris,NOR,McLaren Renault,2020,NOR_McLaren Renault_2020
-Lewis Hamilton,HAM,Mercedes,2020,HAM_Mercedes_2020
-Carlos Sainz,SAI,McLaren Renault,2020,SAI_McLaren Renault_2020
-Sergio Perez,PER,Racing Point BWT Mercedes,2020,PER_Racing Point BWT Mercedes_2020
-Pierre Gasly,GAS,AlphaTauri Honda,2020,GAS_AlphaTauri Honda_2020
-Esteban Ocon,OCO,Renault,2020,OCO_Renault_2020
-Antonio Giovinazzi,GIO,Alfa Romeo Racing Ferrari,2020,GIO_Alfa Romeo Racing Ferrari_2020
-Sebastian Vettel,VET,Ferrari,2020,VET_Ferrari_2020
-Nicholas Latifi,LAT,Williams Mercedes,2020,LAT_Williams Mercedes_2020
-Daniil Kvyat,KVY,AlphaTauri Honda,2020,KVY_AlphaTauri Honda_2020
-Alexander Albon,ALB,Red Bull Racing Honda,2020,ALB_Red Bull Racing Honda_2020
-Kimi Räikkönen,RAI,Alfa Romeo Racing Ferrari,2020,RAI_Alfa Romeo Racing Ferrari_2020
-George Russell,RUS,Williams Mercedes,2020,RUS_Williams Mercedes_2020
-Romain Grosjean,GRO,Haas Ferrari,2020,GRO_Haas Ferrari_2020
-Kevin Magnussen,MAG,Haas Ferrari,2020,MAG_Haas Ferrari_2020
-Lance Stroll,STR,Racing Point BWT Mercedes,2020,STR_Racing Point BWT Mercedes_2020
-Daniel Ricciardo,RIC,Renault,2020,RIC_Renault_2020
-Max Verstappen,VER,Red Bull Racing Honda,2020,VER_Red Bull Racing Honda_2020
-Nico Hulkenberg,HUL,Racing Point BWT Mercedes,2020,HUL_Racing Point BWT Mercedes_2020
-George Russell,RUS,Mercedes,2020,RUS_Mercedes_2020
-Jack Aitken,AIT,Williams Mercedes,2020,AIT_Williams Mercedes_2020
-Pietro Fittipaldi,FIT,Haas Ferrari,2020,FIT_Haas Ferrari_2020
-Lewis Hamilton,HAM,Mercedes,2021,HAM_Mercedes_2021
-Max Verstappen,VER,Red Bull Racing Honda,2021,VER_Red Bull Racing Honda_2021
-Valtteri Bottas,BOT,Mercedes,2021,BOT_Mercedes_2021
-Lando Norris,NOR,McLaren Mercedes,2021,NOR_McLaren Mercedes_2021
-Sergio Perez,PER,Red Bull Racing Honda,2021,PER_Red Bull Racing Honda_2021
-Charles Leclerc,LEC,Ferrari,2021,LEC_Ferrari_2021
-Daniel Ricciardo,RIC,McLaren Mercedes,2021,RIC_McLaren Mercedes_2021
-Carlos Sainz,SAI,Ferrari,2021,SAI_Ferrari_2021
-Yuki Tsunoda,TSU,AlphaTauri Honda,2021,TSU_AlphaTauri Honda_2021
-Lance Stroll,STR,Aston Martin Mercedes,2021,STR_Aston Martin Mercedes_2021
-Kimi Räikkönen,RAI,Alfa Romeo Racing Ferrari,2021,RAI_Alfa Romeo Racing Ferrari_2021
-Antonio Giovinazzi,GIO,Alfa Romeo Racing Ferrari,2021,GIO_Alfa Romeo Racing Ferrari_2021
-Esteban Ocon,OCO,Alpine Renault,2021,OCO_Alpine Renault_2021
-George Russell,RUS,Williams Mercedes,2021,RUS_Williams Mercedes_2021
-Sebastian Vettel,VET,Aston Martin Mercedes,2021,VET_Aston Martin Mercedes_2021
-Mick Schumacher,MSC,Haas Ferrari,2021,MSC_Haas Ferrari_2021
-Pierre Gasly,GAS,AlphaTauri Honda,2021,GAS_AlphaTauri Honda_2021
-Nicholas Latifi,LAT,Williams Mercedes,2021,LAT_Williams Mercedes_2021
-Fernando Alonso,ALO,Alpine Renault,2021,ALO_Alpine Renault_2021
-Nikita Mazepin,MAZ,Haas Ferrari,2021,MAZ_Haas Ferrari_2021
-Robert Kubica,KUB,Alfa Romeo Racing Ferrari,2021,KUB_Alfa Romeo Racing Ferrari_2021
-Charles Leclerc,LEC,Ferrari,2022,LEC_Ferrari_2022
-Carlos Sainz,SAI,Ferrari,2022,SAI_Ferrari_2022
-Lewis Hamilton,HAM,Mercedes,2022,HAM_Mercedes_2022
-George Russell,RUS,Mercedes,2022,RUS_Mercedes_2022
-Kevin Magnussen,MAG,Haas Ferrari,2022,MAG_Haas Ferrari_2022
-Valtteri Bottas,BOT,Alfa Romeo Ferrari,2022,BOT_Alfa Romeo Ferrari_2022
-Esteban Ocon,OCO,Alpine Renault,2022,OCO_Alpine Renault_2022
-Yuki Tsunoda,TSU,AlphaTauri RBPT,2022,TSU_AlphaTauri RBPT_2022
-Fernando Alonso,ALO,Alpine Renault,2022,ALO_Alpine Renault_2022
-Zhou Guanyu,ZHO,Alfa Romeo Ferrari,2022,ZHO_Alfa Romeo Ferrari_2022
-Mick Schumacher,MSC,Haas Ferrari,2022,MSC_Haas Ferrari_2022
-Lance Stroll,STR,Aston Martin Aramco Mercedes,2022,STR_Aston Martin Aramco Mercedes_2022
-Alexander Albon,ALB,Williams Mercedes,2022,ALB_Williams Mercedes_2022
-Daniel Ricciardo,RIC,McLaren Mercedes,2022,RIC_McLaren Mercedes_2022
-Lando Norris,NOR,McLaren Mercedes,2022,NOR_McLaren Mercedes_2022
-Nicholas Latifi,LAT,Williams Mercedes,2022,LAT_Williams Mercedes_2022
-Nico Hulkenberg,HUL,Aston Martin Aramco Mercedes,2022,HUL_Aston Martin Aramco Mercedes_2022
-Sergio Perez,PER,Red Bull Racing RBPT,2022,PER_Red Bull Racing RBPT_2022
-Max Verstappen,VER,Red Bull Racing RBPT,2022,VER_Red Bull Racing RBPT_2022
-Pierre Gasly,GAS,AlphaTauri RBPT,2022,GAS_AlphaTauri RBPT_2022
-Sebastian Vettel,VET,Aston Martin Aramco Mercedes,2022,VET_Aston Martin Aramco Mercedes_2022
-Nyck De Vries,DEV,Williams Mercedes,2022,DEV_Williams Mercedes_2022
-Max Verstappen,VER,Red Bull Racing Honda RBPT,2023,VER_Red Bull Racing Honda RBPT_2023
-Sergio Perez,PER,Red Bull Racing Honda RBPT,2023,PER_Red Bull Racing Honda RBPT_2023
-Fernando Alonso,ALO,Aston Martin Aramco Mercedes,2023,ALO_Aston Martin Aramco Mercedes_2023
-Carlos Sainz,SAI,Ferrari,2023,SAI_Ferrari_2023
-Lewis Hamilton,HAM,Mercedes,2023,HAM_Mercedes_2023
-Lance Stroll,STR,Aston Martin Aramco Mercedes,2023,STR_Aston Martin Aramco Mercedes_2023
-George Russell,RUS,Mercedes,2023,RUS_Mercedes_2023
-Valtteri Bottas,BOT,Alfa Romeo Ferrari,2023,BOT_Alfa Romeo Ferrari_2023
-Pierre Gasly,GAS,Alpine Renault,2023,GAS_Alpine Renault_2023
-Alexander Albon,ALB,Williams Mercedes,2023,ALB_Williams Mercedes_2023
-Yuki Tsunoda,TSU,AlphaTauri Honda RBPT,2023,TSU_AlphaTauri Honda RBPT_2023
-Logan Sargeant,SAR,Williams Mercedes,2023,SAR_Williams Mercedes_2023
-Kevin Magnussen,MAG,Haas Ferrari,2023,MAG_Haas Ferrari_2023
-Nyck De Vries,DEV,AlphaTauri Honda RBPT,2023,DEV_AlphaTauri Honda RBPT_2023
-Nico Hulkenberg,HUL,Haas Ferrari,2023,HUL_Haas Ferrari_2023
-Zhou Guanyu,ZHO,Alfa Romeo Ferrari,2023,ZHO_Alfa Romeo Ferrari_2023
-Lando Norris,NOR,McLaren Mercedes,2023,NOR_McLaren Mercedes_2023
-Esteban Ocon,OCO,Alpine Renault,2023,OCO_Alpine Renault_2023
-Charles Leclerc,LEC,Ferrari,2023,LEC_Ferrari_2023
-Oscar Piastri,PIA,McLaren Mercedes,2023,PIA_McLaren Mercedes_2023
-Daniel Ricciardo,RIC,AlphaTauri Honda RBPT,2023,RIC_AlphaTauri Honda RBPT_2023
-Liam Lawson,LAW,AlphaTauri Honda RBPT,2023,LAW_AlphaTauri Honda RBPT_2023
+"Driver"
+"Sebastian Vettel"
+"Lewis Hamilton"
+"Kimi Räikkönen"
+"Daniel Ricciardo"
+"Fernando Alonso"
+"Max Verstappen"
+"Nico Hulkenberg"
+"Valtteri Bottas"
+"Stoffel Vandoorne"
+"Carlos Sainz"
+"Sergio Perez"
+"Esteban Ocon"
+"Charles Leclerc"
+"Lance Stroll"
+"Brendon Hartley"
+"Romain Grosjean"
+"Kevin Magnussen"
+"Pierre Gasly"
+"Marcus Ericsson"
+"Sergey Sirotkin"
+"Daniil Kvyat"
+"Lando Norris"
+"Alexander Albon"
+"Antonio Giovinazzi"
+"George Russell"
+"Robert Kubica"
+"Nicholas Latifi"
+"Jack Aitken"
+"Pietro Fittipaldi"
+"Yuki Tsunoda"
+"Mick Schumacher"
+"Nikita Mazepin"
+"Zhou Guanyu"
+"Nyck De Vries"
+"Logan Sargeant"
+"Oscar Piastri"
+"Liam Lawson"
