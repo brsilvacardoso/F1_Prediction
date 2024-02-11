@@ -9,8 +9,6 @@ getwd()
 
 read_folder_path <- "./Raw_Files"
 
-save_folder_path <- "./Raw_Files"
-
 file_names <-
   list.files(path = read_folder_path,
              pattern = "\\.csv$",
@@ -36,7 +34,7 @@ for (file_name in file_names) {
 # Combine all data frames into a single data frame
 races_2018_2023_appended <- do.call(rbind, all_files)
 
-#View(races_2018_2023_appended)
+##View(races_2018_2023_appended)
 
 
 # Transform nc to order position ---------------------------
@@ -64,7 +62,7 @@ races_2018_2023_appended$Pos <-
   zoo::na.locf(races_2018_2023_appended$Pos, fromLast = FALSE)
 
 
-#View(races_2018_2023_appended)
+##View(races_2018_2023_appended)
 
 
 # Creating a column to year -----------------------------------------------
@@ -75,25 +73,25 @@ races_2018_2023_appended$Date <-
   as.Date(races_2018_2023_appended$Date, format = "%Y-%m-%d")
 print(class(races_2018_2023_appended$Date))
 
-#View(races_2018_2023_appended)
+##View(races_2018_2023_appended)
 
 races_2018_2023_appended$Year <- year(races_2018_2023_appended$Date)
 
-View(races_2018_2023_appended)
+#View(races_2018_2023_appended)
 
 
 
 
 # #Creating a column to driver name abbreviation --------------------------
 
-races_2018_2023_appended$Driver_Name_Abreviation <-
+races_2018_2023_appended$Driver_Name_Abbreviation <-
   substr(
     races_2018_2023_appended$Driver,
     nchar(races_2018_2023_appended$Driver) - 2,
     nchar(races_2018_2023_appended$Driver)
   )
 
-View(races_2018_2023_appended)
+#View(races_2018_2023_appended)
 
 
 
@@ -105,7 +103,7 @@ races_2018_2023_appended$Driver <-
          nchar(races_2018_2023_appended$Driver) - 4)
 
 
-View(races_2018_2023_appended)
+#View(races_2018_2023_appended)
 
 
 
@@ -114,11 +112,30 @@ View(races_2018_2023_appended)
 races_2018_2023_appended <-
   mutate(races_2018_2023_appended, Is_Winner = Pos == 1)
 
-View(races_2018_2023_appended)
+#View(races_2018_2023_appended)
+
+
+
+# Creating ID with Name Abbreviation and Year -----------------------------
+
+# Converting Year to character to concatenate 
+races_2018_2023_appended$Year = as.character(races_2018_2023_appended$Year)
+
+
+races_2018_2023_appended$Driver_Year <-
+  paste(
+    races_2018_2023_appended$Driver_Name_Abbreviation,
+    races_2018_2023_appended$Year,
+    sep = "_"
+  )
+
+#View(races_2018_2023_appended)
 
 
 # Saving the dataframe ----------------------------------------------------
 
-write.csv(races_2018_2023_appended,
-          "./Clean_Files/races_2018_2023_appended.csv",
-          row.names = FALSE)
+# write.csv(
+#   races_2018_2023_appended,
+#   "./Clean_Files/races_2018_2023_appended.csv",
+#   row.names = FALSE
+# )
