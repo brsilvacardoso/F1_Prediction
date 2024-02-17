@@ -1,13 +1,13 @@
 # Setting File ------------------------------------------------------------
 
-races <- read.csv("./Clean_Files/races_2018_2023_appended.csv")
+races <- read.csv("./clean_files/races_2018_2023_appended.csv")
 
 
 # Selecting Columns -------------------------------------------------------
 
 # Races
 df_races <-
-  select(races, Driver_Year, PTS)
+  select(races, Driver_Year, Year, PTS)
 
 #View(df_races)
 
@@ -34,6 +34,6 @@ View(sum_points_df)
 
 # Saving File -------------------------------------------------------------
 
-write.csv(sum_points_df,
-          "./Clean_Files/sum_points_driver_year.csv", row.names = FALSE)
+# write.csv(sum_points_df,
+#           "./Clean_Files/sum_points_driver_year.csv", row.names = FALSE)
 
