@@ -1,6 +1,6 @@
 # Setting File ------------------------------------------------------------
 
-races <- read.csv("./Clean_Files/races_2018_2023_appended.csv")
+races <- read.csv("./clean_files/races_2018_2023_appended.csv")
 
 
 # Selecting Columns -------------------------------------------------------

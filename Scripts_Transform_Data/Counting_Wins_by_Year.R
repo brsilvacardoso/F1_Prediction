@@ -1,63 +1,37 @@
 # Setting File ------------------------------------------------------------
 
-races <- read.csv("./Clean_Files/races_2018_2023_appended.csv")
+races <- read.csv("./clean_files/races_2018_2023_appended.csv")
 
-# Races
-df_races <-
-  select(races, Driver_Year, Is_Winner)
-
-View(df_races)
+print(colnames(races))
 
 
-#Year
-df_year <-
-  select(races, Driver, Driver_Name_Abbreviation, Year, Driver_Year)
-
-#Getting unique values
-df_year <- unique(df_year)
-
-#View(df_year)
 
 # Counting Wins -----------------------------------------------------------
-df_winner <- select(races, Driver_Year, Is_Winner)
+df_winner <- select(races, driver, driver_year, is_winner)
 
 #View(df_winner)
 
 count_df <-
-  as.data.frame(table(df_winner$Driver_Year, df_winner$Is_Winner))
+  as.data.frame(table(df_winner$driver_year, df_winner$is_winner))
 
-#View(count_df)
+View(count_df)
 
-names(count_df) <- c("Driver_Year", "Is_Winner", "Count")
+names(count_df) <- c("driver_year", "is_winner", "count_wins")
 
-#View(count_df)
+filtered_df <- filter(count_df, is_winner == TRUE)
 
-
-
-# Pivot the dataframe -----------------------------------------------------
-
-count_df <-
-  pivot_wider(count_df, names_from = "Is_Winner", values_from = "Count")
-
-names(count_df) <- c("Driver_Year", "Is_Winner_false", "Is_Winner_true")
-
-#View(count_df)
+View(filtered_df)
 
 
 
+# Selecting columns -------------------------------------------------------
 
-# Merging dataframes ------------------------------------------------------
+filtered_df <- select(filtered_df, driver_year, count_wins)
 
-merged_df <-
-  merge(x = count_df,
-        y = df_year,
-        by = "Driver_Year",
-        all.x = TRUE)
-
-View(merged_df)
+View(filtered_df)
 
 
 # Saving File -------------------------------------------------------------
 
-write.csv(merged_df,
-          "./Clean_Files/count_wins_year.csv", row.names = FALSE)
+write.csv(filtered_df,
+          "./clean_files/count_wins_year.csv", row.names = FALSE)

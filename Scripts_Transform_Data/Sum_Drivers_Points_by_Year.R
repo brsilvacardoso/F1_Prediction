@@ -5,35 +5,24 @@ races <- read.csv("./clean_files/races_2018_2023_appended.csv")
 
 # Selecting Columns -------------------------------------------------------
 
-# Races
-df_races <-
-  select(races, Driver_Year, Year, PTS)
+df <-
+  select(races, driver, driver_year, season, pts)
 
-#View(df_races)
+#View(df)
 
 
 # Summing Points ----------------------------------------------------------
 
-sum_points <-
-  tapply(df_races$PTS,
-         df_races$Driver_Year,
-         FUN = sum,
-         na.rm = TRUE)
+sum_points_by_driver_year <- df %>%
+  group_by(driver_year, driver, season) %>%
+  summarize(Total_Points = sum(pts, na.rm = TRUE))
 
 
-# Converting to dataframe
-sum_points_df <-
-  data.frame(
-    Driver_Year = names(sum_points),
-    Points = sum_points,
-    row.names = NULL
-  )
+view(sum_points_by_driver_year)
 
-View(sum_points_df)
 
 
 # Saving File -------------------------------------------------------------
 
-# write.csv(sum_points_df,
-#           "./Clean_Files/sum_points_driver_year.csv", row.names = FALSE)
-
+write.csv(sum_points_by_driver_year,
+          "./clean_files/sum_points_driver_year.csv", row.names = FALSE)

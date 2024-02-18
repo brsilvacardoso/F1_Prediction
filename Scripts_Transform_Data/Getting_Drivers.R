@@ -3,7 +3,7 @@
 getwd()
 
 df_races_2018_2023_appended <-
-  read.csv("./Raw_Files/races_2018_2023_appended.csv")
+  read.csv("./clean_files/races_2018_2023_appended.csv")
 
 View(df_races_2018_2023_appended)
 
@@ -12,7 +12,7 @@ View(df_races_2018_2023_appended)
 # Selecting the column Circuit --------------------------------------------
 
 
-df_races_2018_2023 <- select(df_races_2018_2023_appended, Driver)
+df_races_2018_2023 <- select(df_races_2018_2023_appended, driver, season, driver_year)
 
 View(df_races_2018_2023)
 
@@ -27,9 +27,10 @@ View(df_races_2018_2023)
 
 
 
+
 # Saving the file ---------------------------------------------------------
 
 
 write.csv(df_races_2018_2023,
-          "./Clean_Files/Drivers_2018_2023.csv",
+          "./clean_files/drivers_2018_2023.csv",
           row.names = FALSE)
