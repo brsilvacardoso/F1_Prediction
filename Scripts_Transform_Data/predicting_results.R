@@ -71,20 +71,24 @@ merged_df <- merged_df %>%
 
 merged_df
 
+filtered_seasons <- filter(merged_df, season >= 2018 & season <= 2022)
+
+View(filtered_seasons)
+
 
 # Creating model ----------------------------------------------------------
 
 lm <-
-  lm (total_points ~ count_wins + count_podiums, data = merged_df)
+  lm (total_points ~ count_wins + count_podiums, data = filtered_seasons)
 
 
 summary(lm)
 
-preds <- predict(lm, merged_df)
+preds <- predict(lm, filtered_seasons)
 preds
 
-merged_df$preds <- preds
-View(merged_df)
+filtered_seasons$preds <- preds
+View(filtered_seasons)
 
 
 
