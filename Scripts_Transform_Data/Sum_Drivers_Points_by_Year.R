@@ -15,7 +15,7 @@ df <-
 
 sum_points_by_driver_year <- df %>%
   group_by(driver_year, driver, season) %>%
-  summarize(Total_Points = sum(pts, na.rm = TRUE))
+  summarize(total_points = sum(pts, na.rm = TRUE))
 
 
 view(sum_points_by_driver_year)

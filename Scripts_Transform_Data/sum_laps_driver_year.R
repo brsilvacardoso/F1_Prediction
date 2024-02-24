@@ -19,21 +19,15 @@ View(races)
 
 # Summing Points ----------------------------------------------------------
 
-sum_laps <-
-  tapply(races$laps, races$driver_year, FUN = sum, na.rm = TRUE)
+sum_laps <- races %>% group_by(driver_year) %>%
+  mutate(points_by_year = sum(laps))
 
-
-# Converting to dataframe
-sum_laps_df <-
-  data.frame(driver_year = names(sum_laps),
-             laps_year = sum_laps,
-             row.names = NULL)
-
-View(sum_laps_df)
+sum_laps <- sum_laps %>%
+  distinct(driver_year, points_by_year)
 
 
 # Saving File -------------------------------------------------------------
 
-write.csv(sum_points_df,
-          "./Clean_Files/sum_drivers_points.csv",
+write.csv(sum_laps_df,
+          "./clean_files/sum_drivers_laps_year.csv",
           row.names = FALSE)
