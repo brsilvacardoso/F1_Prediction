@@ -2,8 +2,6 @@
 
 # Importing libraries -----------------------------------------------------
 
-
-library(Lahman)
 library(dplyr)
 library(ggplot2)
 library(caret)
@@ -39,9 +37,8 @@ merged_df <-
   Reduce(function(x, y)
     merge(x, y, by = "driver_year"), dfs)
 
-#merged_df <- merge(df_drivers, df_points, by = "driver_year")
 
-View(merged_df)
+#View(merged_df)
 
 # Selecting Columns -------------------------------------------------------
 
@@ -74,6 +71,9 @@ merged_df
 filtered_seasons <- filter(merged_df, season >= 2018 & season <= 2022)
 
 View(filtered_seasons)
+
+
+t.test(filtered_seasons$total_points)
 
 
 # Creating model ----------------------------------------------------------
