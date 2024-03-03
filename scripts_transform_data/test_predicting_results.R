@@ -87,32 +87,37 @@ merged_df <- merged_df %>%
 
 #View(merged_df)
 
+filtered_seasons <-
+  filter(merged_df, season >= 2018 & season <= 2022)
+
+#View(filtered_seasons)
+
 
 # Preliminary analyses ----------------------------------------------------
 
 #Descriptive statistics
-summary(merged_df)
+summary(filtered_seasons)
 
 
 # Creating correlation matrix
-merged_df_numeric <-
-  subset(merged_df, select = sapply(merged_df, is.numeric))
+filtered_seasons_numeric <-
+  subset(filtered_seasons, select = sapply(filtered_seasons, is.numeric))
 
-correlation_matrix <- round(cor(merged_df_numeric), 4)
+correlation_matrix <- round(cor(filtered_seasons_numeric), 4)
 
 print(correlation_matrix)
 
 # Checking the correlations visual ------------------------------------------------
 
 # Checking position and laps year
-# ggplot(data = merged_df, aes(x = position, y = total_points)) +
+# ggplot(data = filtered_seasons, aes(x = position, y = total_points)) +
 #   geom_point() +
 #   scale_x_continuous(breaks = seq(0, 22, by = 1), labels = seq(0, 22, by = 1))
 
 
 # Selecting columns to check the correlation using corrplot (colorful)
 df_cor_matrix <-
-  select(merged_df,
+  select(filtered_seasons,
          total_points,
          count_wins,
          count_podiums,
@@ -120,26 +125,28 @@ df_cor_matrix <-
          position)
 
 
-#merged_df[] <- lapply(merged_df, as.numeric)
+#filtered_seasons[] <- lapply(filtered_seasons, as.numeric)
 cor_matrix <- cor(df_cor_matrix)
 #corrplot(cor_matrix)
 
 
-# ggpairs(merged_df, cardinality_threshold = 130)
+# ggpairs(filtered_seasons, cardinality_threshold = 130)
 
+
+error
 
 # Testing and fit model to predict position -------------------------------------------------------
 
 # Renaming the dataframe to train and test
 
-merged_df_test_position <- merged_df
+filtered_seasons_test_position <- filtered_seasons
 
-set.seed(128)
+set.seed(106)
 
 # Split the data into predictors (X) and response (y)
 x <-
-  merged_df_test_position[, c('total_points', 'count_wins', 'count_podiums', 'laps_year')]
-y <- merged_df_test_position$position
+  filtered_seasons_test_position[, c('total_points', 'count_wins', 'count_podiums', 'laps_year')]
+y <- filtered_seasons_test_position$position
 
 # Split the data into train and test sets
 split <- createDataPartition(y, p = 0.8, list = FALSE)
@@ -179,17 +186,17 @@ root_mean_squared_error
 
 linear_model <-
   lm (position ~ total_points + count_wins + count_podiums + laps_year,
-      data = merged_df)
+      data = filtered_seasons)
 
 
 # Adding the pred as a columns
-prediction_position <- predict(linear_model, merged_df)
+prediction_position <- predict(linear_model, filtered_seasons)
 
 
-merged_df$prediction_position <- prediction_position
+filtered_seasons$prediction_position <- prediction_position
 
 filtered_with_prediction <-
-  filter(merged_df, season == 2023)
+  filter(filtered_seasons, season == 2022)
 
 filtered_with_prediction
 
@@ -229,7 +236,7 @@ filtered_with_prediction
 
 write.csv(
   filtered_with_prediction,
-  "./clean_files/prediction_results/prediction_position.csv",
+  "./clean_files/prediction_results/test_prediction_position.csv",
   row.names = FALSE
 )
 
@@ -237,15 +244,15 @@ write.csv(
 
 # Renaming the dataframe to train and test
 
-merged_df_test_points <- merged_df
-merged_df_test_points
+filtered_seasons_test_points <- filtered_seasons
+filtered_seasons_test_points
 
-set.seed(128)
+set.seed(106)
 
 # Split the data into predictors (X) and response (y)
 x <-
-  merged_df_test_points[, c('position', 'count_podiums', 'count_wins', 'laps_year')]
-y <- merged_df_test_position$total_points
+  filtered_seasons_test_points[, c('position', 'count_podiums', 'count_wins', 'laps_year')]
+y <- filtered_seasons_test_position$total_points
 
 # Split the data into train and test sets
 split <- createDataPartition(y, p = 0.8, list = FALSE)
@@ -285,18 +292,18 @@ root_mean_squared_error
 
 linear_model <-
   lm(total_points ~ position + count_wins + count_podiums + laps_year,
-     data = merged_df)
+     data = filtered_seasons)
 
 
 # Adding the pred as a columns
-prediction_points <- predict(linear_model, merged_df)
+prediction_points <- predict(linear_model, filtered_seasons)
 
 
-merged_df$prediction_points <- prediction_points
+filtered_seasons$prediction_points <- prediction_points
 
 
 filtered_with_prediction <-
-  filter(merged_df, season == 2023)
+  filter(filtered_seasons, season == 2022)
 
 filtered_with_prediction
 
@@ -351,7 +358,7 @@ filtered_with_prediction
 
 write.csv(
   filtered_with_prediction,
-  "./clean_files/prediction_results/prediction_based_points.csv",
+  "./clean_files/prediction_results/test_prediction_based_points.csv",
   row.names = FALSE
 )
 

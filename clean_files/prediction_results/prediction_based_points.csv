@@ -1,0 +1,23 @@
+"driver","total_points","position","prediction_points","difference_true_prediction_points","position_based_points","difference_position_based_points"
+"Alexander Albon",25,13,42,-17,13,0
+"Fernando Alonso",198,4,210,-12,3,1
+"Valtteri Bottas",10,15,28,-18,15,0
+"Nyck De Vries",0,22,0,0,20,2
+"Pierre Gasly",54,12,62,-8,12,0
+"Lewis Hamilton",217,3,204,13,4,-1
+"Nico Hulkenberg",6,16,21,-15,16,0
+"Liam Lawson",2,20,0,2,20,0
+"Charles Leclerc",185,5,177,8,6,-1
+"Kevin Magnussen",3,19,1,2,19,0
+"Lando Norris",184,6,183,1,5,1
+"Esteban Ocon",56,11,69,-13,10,1
+"Sergio Perez",260,2,248,12,2,0
+"Oscar Piastri",82,9,96,-14,9,0
+"Daniel Ricciardo",6,17,14,-8,17,0
+"George Russell",157,8,103,54,8,0
+"Carlos Sainz",178,7,129,49,7,0
+"Logan Sargeant",1,21,0,1,20,1
+"Lance Stroll",68,10,63,5,11,-1
+"Yuki Tsunoda",14,14,35,-21,14,0
+"Max Verstappen",530,1,508,22,1,0
+"Zhou Guanyu",6,18,8,-2,18,0
