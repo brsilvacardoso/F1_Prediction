@@ -1,0 +1,240 @@
+Circuit,Date,Pos,No,Driver,Car,Laps,Time/Retired,PTS
+Silverstone Circuit - Silverstone,2021-07-18,1,33,Max Verstappen VER,Red Bull Racing Honda,17,25:38.426,3
+Silverstone Circuit - Silverstone,2021-07-18,2,44,Lewis Hamilton HAM,Mercedes,17,+1.430s,2
+Silverstone Circuit - Silverstone,2021-07-18,3,77,Valtteri Bottas BOT,Mercedes,17,+7.502s,1
+Silverstone Circuit - Silverstone,2021-07-18,4,16,Charles Leclerc LEC,Ferrari,17,+11.278s,0
+Silverstone Circuit - Silverstone,2021-07-18,5,4,Lando Norris NOR,McLaren Mercedes,17,+24.111s,0
+Silverstone Circuit - Silverstone,2021-07-18,6,3,Daniel Ricciardo RIC,McLaren Mercedes,17,+30.959s,0
+Silverstone Circuit - Silverstone,2021-07-18,7,14,Fernando Alonso ALO,Alpine Renault,17,+43.527s,0
+Silverstone Circuit - Silverstone,2021-07-18,8,5,Sebastian Vettel VET,Aston Martin Mercedes,17,+44.439s,0
+Silverstone Circuit - Silverstone,2021-07-18,9,63,George Russell RUS,Williams Mercedes,17,+46.652s,0
+Silverstone Circuit - Silverstone,2021-07-18,10,31,Esteban Ocon OCO,Alpine Renault,17,+47.395s,0
+Silverstone Circuit - Silverstone,2021-07-18,11,55,Carlos Sainz SAI,Ferrari,17,+47.798s,0
+Silverstone Circuit - Silverstone,2021-07-18,12,10,Pierre Gasly GAS,AlphaTauri Honda,17,+48.763s,0
+Silverstone Circuit - Silverstone,2021-07-18,13,7,Kimi Räikkönen RAI,Alfa Romeo Racing Ferrari,17,+50.677s,0
+Silverstone Circuit - Silverstone,2021-07-18,14,18,Lance Stroll STR,Aston Martin Mercedes,17,+52.179s,0
+Silverstone Circuit - Silverstone,2021-07-18,15,99,Antonio Giovinazzi GIO,Alfa Romeo Racing Ferrari,17,+53.225s,0
+Silverstone Circuit - Silverstone,2021-07-18,16,22,Yuki Tsunoda TSU,AlphaTauri Honda,17,+53.567s,0
+Silverstone Circuit - Silverstone,2021-07-18,17,6,Nicholas Latifi LAT,Williams Mercedes,17,+55.162s,0
+Silverstone Circuit - Silverstone,2021-07-18,18,47,Mick Schumacher MSC,Haas Ferrari,17,+68.213s,0
+Silverstone Circuit - Silverstone,2021-07-18,19,9,Nikita Mazepin MAZ,Haas Ferrari,17,+77.648s,0
+Silverstone Circuit - Silverstone,2021-07-18,20,11,Sergio Perez PER,Red Bull Racing Honda,16,DNF,0
+Autodromo Nazionale Monza - Monza,2021-09-12,1,77,Valtteri Bottas BOT,Mercedes,18,27:54.078,3
+Autodromo Nazionale Monza - Monza,2021-09-12,2,33,Max Verstappen VER,Red Bull Racing Honda,18,+2.325s,2
+Autodromo Nazionale Monza - Monza,2021-09-12,3,3,Daniel Ricciardo RIC,McLaren Mercedes,18,+14.534s,1
+Autodromo Nazionale Monza - Monza,2021-09-12,4,4,Lando Norris NOR,McLaren Mercedes,18,+18.835s,0
+Autodromo Nazionale Monza - Monza,2021-09-12,5,44,Lewis Hamilton HAM,Mercedes,18,+20.011s,0
+Autodromo Nazionale Monza - Monza,2021-09-12,6,16,Charles Leclerc LEC,Ferrari,18,+23.442s,0
+Autodromo Nazionale Monza - Monza,2021-09-12,7,55,Carlos Sainz SAI,Ferrari,18,+27.952s,0
+Autodromo Nazionale Monza - Monza,2021-09-12,8,99,Antonio Giovinazzi GIO,Alfa Romeo Racing Ferrari,18,+31.089s,0
+Autodromo Nazionale Monza - Monza,2021-09-12,9,11,Sergio Perez PER,Red Bull Racing Honda,18,+31.680s,0
+Autodromo Nazionale Monza - Monza,2021-09-12,10,18,Lance Stroll STR,Aston Martin Mercedes,18,+38.671s,0
+Autodromo Nazionale Monza - Monza,2021-09-12,11,14,Fernando Alonso ALO,Alpine Renault,18,+39.795s,0
+Autodromo Nazionale Monza - Monza,2021-09-12,12,5,Sebastian Vettel VET,Aston Martin Mercedes,18,+41.177s,0
+Autodromo Nazionale Monza - Monza,2021-09-12,13,31,Esteban Ocon OCO,Alpine Renault,18,+43.373s,0
+Autodromo Nazionale Monza - Monza,2021-09-12,14,6,Nicholas Latifi LAT,Williams Mercedes,18,+45.977s,0
+Autodromo Nazionale Monza - Monza,2021-09-12,15,63,George Russell RUS,Williams Mercedes,18,+46.821s,0
+Autodromo Nazionale Monza - Monza,2021-09-12,16,22,Yuki Tsunoda TSU,AlphaTauri Honda,18,+49.977s,0
+Autodromo Nazionale Monza - Monza,2021-09-12,17,9,Nikita Mazepin MAZ,Haas Ferrari,18,+62.599s,0
+Autodromo Nazionale Monza - Monza,2021-09-12,18,88,Robert Kubica KUB,Alfa Romeo Racing Ferrari,18,+65.096s,0
+Autodromo Nazionale Monza - Monza,2021-09-12,19,47,Mick Schumacher MSC,Haas Ferrari,18,+66.154s,0
+Autodromo Nazionale Monza - Monza,2021-09-12,NC,10,Pierre Gasly GAS,AlphaTauri Honda,0,DNF,0
+Autódromo José Carlos Pace - São Paulo,2021-11-14,1,77,Valtteri Bottas BOT,Mercedes,24,29:09.559,3
+Autódromo José Carlos Pace - São Paulo,2021-11-14,2,33,Max Verstappen VER,Red Bull Racing Honda,24,+1.170s,2
+Autódromo José Carlos Pace - São Paulo,2021-11-14,3,55,Carlos Sainz SAI,Ferrari,24,+18.723s,1
+Autódromo José Carlos Pace - São Paulo,2021-11-14,4,11,Sergio Perez PER,Red Bull Racing Honda,24,+19.787s,0
+Autódromo José Carlos Pace - São Paulo,2021-11-14,5,44,Lewis Hamilton HAM,Mercedes,24,+20.872s,0
+Autódromo José Carlos Pace - São Paulo,2021-11-14,6,4,Lando Norris NOR,McLaren Mercedes,24,+22.558s,0
+Autódromo José Carlos Pace - São Paulo,2021-11-14,7,16,Charles Leclerc LEC,Ferrari,24,+25.056s,0
+Autódromo José Carlos Pace - São Paulo,2021-11-14,8,10,Pierre Gasly GAS,AlphaTauri Honda,24,+34.158s,0
+Autódromo José Carlos Pace - São Paulo,2021-11-14,9,31,Esteban Ocon OCO,Alpine Renault,24,+34.632s,0
+Autódromo José Carlos Pace - São Paulo,2021-11-14,10,5,Sebastian Vettel VET,Aston Martin Mercedes,24,+34.867s,0
+Autódromo José Carlos Pace - São Paulo,2021-11-14,11,3,Daniel Ricciardo RIC,McLaren Mercedes,24,+35.869s,0
+Autódromo José Carlos Pace - São Paulo,2021-11-14,12,14,Fernando Alonso ALO,Alpine Renault,24,+36.578s,0
+Autódromo José Carlos Pace - São Paulo,2021-11-14,13,99,Antonio Giovinazzi GIO,Alfa Romeo Racing Ferrari,24,+41.880s,0
+Autódromo José Carlos Pace - São Paulo,2021-11-14,14,18,Lance Stroll STR,Aston Martin Mercedes,24,+44.037s,0
+Autódromo José Carlos Pace - São Paulo,2021-11-14,15,22,Yuki Tsunoda TSU,AlphaTauri Honda,24,+46.150s,0
+Autódromo José Carlos Pace - São Paulo,2021-11-14,16,6,Nicholas Latifi LAT,Williams Mercedes,24,+46.760s,0
+Autódromo José Carlos Pace - São Paulo,2021-11-14,17,63,George Russell RUS,Williams Mercedes,24,+47.739s,0
+Autódromo José Carlos Pace - São Paulo,2021-11-14,18,7,Kimi Räikkönen RAI,Alfa Romeo Racing Ferrari,24,+50.014s,0
+Autódromo José Carlos Pace - São Paulo,2021-11-14,19,47,Mick Schumacher MSC,Haas Ferrari,24,+61.680s,0
+Autódromo José Carlos Pace - São Paulo,2021-11-14,20,9,Nikita Mazepin MAZ,Haas Ferrari,24,+67.474s,0
+Autodromo Enzo e Dino Ferrari - Imola,2022-04-24,1,1,Max Verstappen VER,Red Bull Racing RBPT,21,30:39.567,8
+Autodromo Enzo e Dino Ferrari - Imola,2022-04-24,2,16,Charles Leclerc LEC,Ferrari,21,+2.975s,7
+Autodromo Enzo e Dino Ferrari - Imola,2022-04-24,3,11,Sergio Perez PER,Red Bull Racing RBPT,21,+4.721s,6
+Autodromo Enzo e Dino Ferrari - Imola,2022-04-24,4,55,Carlos Sainz SAI,Ferrari,21,+17.578s,5
+Autodromo Enzo e Dino Ferrari - Imola,2022-04-24,5,4,Lando Norris NOR,McLaren Mercedes,21,+24.561s,4
+Autodromo Enzo e Dino Ferrari - Imola,2022-04-24,6,3,Daniel Ricciardo RIC,McLaren Mercedes,21,+27.740s,3
+Autodromo Enzo e Dino Ferrari - Imola,2022-04-24,7,77,Valtteri Bottas BOT,Alfa Romeo Ferrari,21,+28.133s,2
+Autodromo Enzo e Dino Ferrari - Imola,2022-04-24,8,20,Kevin Magnussen MAG,Haas Ferrari,21,+30.712s,1
+Autodromo Enzo e Dino Ferrari - Imola,2022-04-24,9,14,Fernando Alonso ALO,Alpine Renault,21,+32.278s,0
+Autodromo Enzo e Dino Ferrari - Imola,2022-04-24,10,47,Mick Schumacher MSC,Haas Ferrari,21,+33.773s,0
+Autodromo Enzo e Dino Ferrari - Imola,2022-04-24,11,63,George Russell RUS,Mercedes,21,+36.284s,0
+Autodromo Enzo e Dino Ferrari - Imola,2022-04-24,12,22,Yuki Tsunoda TSU,AlphaTauri RBPT,21,+38.298s,0
+Autodromo Enzo e Dino Ferrari - Imola,2022-04-24,13,5,Sebastian Vettel VET,Aston Martin Aramco Mercedes,21,+40.177s,0
+Autodromo Enzo e Dino Ferrari - Imola,2022-04-24,14,44,Lewis Hamilton HAM,Mercedes,21,+41.459s,0
+Autodromo Enzo e Dino Ferrari - Imola,2022-04-24,15,18,Lance Stroll STR,Aston Martin Aramco Mercedes,21,+42.910s,0
+Autodromo Enzo e Dino Ferrari - Imola,2022-04-24,16,31,Esteban Ocon OCO,Alpine Renault,21,+43.517s,0
+Autodromo Enzo e Dino Ferrari - Imola,2022-04-24,17,10,Pierre Gasly GAS,AlphaTauri RBPT,21,+43.794s,0
+Autodromo Enzo e Dino Ferrari - Imola,2022-04-24,18,23,Alexander Albon ALB,Williams Mercedes,21,+48.871s,0
+Autodromo Enzo e Dino Ferrari - Imola,2022-04-24,19,6,Nicholas Latifi LAT,Williams Mercedes,21,+52.017s,0
+Autodromo Enzo e Dino Ferrari - Imola,2022-04-24,NC,24,Zhou Guanyu ZHO,Alfa Romeo Ferrari,0,DNF,0
+Red Bull Ring - Spielberg,2022-07-10,1,1,Max Verstappen VER,Red Bull Racing RBPT,23,26:30.059,8
+Red Bull Ring - Spielberg,2022-07-10,2,16,Charles Leclerc LEC,Ferrari,23,+1.675s,7
+Red Bull Ring - Spielberg,2022-07-10,3,55,Carlos Sainz SAI,Ferrari,23,+5.644s,6
+Red Bull Ring - Spielberg,2022-07-10,4,63,George Russell RUS,Mercedes,23,+13.429s,5
+Red Bull Ring - Spielberg,2022-07-10,5,11,Sergio Perez PER,Red Bull Racing RBPT,23,+18.302s,4
+Red Bull Ring - Spielberg,2022-07-10,6,31,Esteban Ocon OCO,Alpine Renault,23,+31.032s,3
+Red Bull Ring - Spielberg,2022-07-10,7,20,Kevin Magnussen MAG,Haas Ferrari,23,+34.539s,2
+Red Bull Ring - Spielberg,2022-07-10,8,44,Lewis Hamilton HAM,Mercedes,23,+35.447s,1
+Red Bull Ring - Spielberg,2022-07-10,9,47,Mick Schumacher MSC,Haas Ferrari,23,+37.163s,0
+Red Bull Ring - Spielberg,2022-07-10,10,77,Valtteri Bottas BOT,Alfa Romeo Ferrari,23,+37.557s,0
+Red Bull Ring - Spielberg,2022-07-10,11,4,Lando Norris NOR,McLaren Mercedes,23,+38.580s,0
+Red Bull Ring - Spielberg,2022-07-10,12,3,Daniel Ricciardo RIC,McLaren Mercedes,23,+39.738s,0
+Red Bull Ring - Spielberg,2022-07-10,13,18,Lance Stroll STR,Aston Martin Aramco Mercedes,23,+48.241s,0
+Red Bull Ring - Spielberg,2022-07-10,14,24,Zhou Guanyu ZHO,Alfa Romeo Ferrari,23,+50.753s,0
+Red Bull Ring - Spielberg,2022-07-10,15,10,Pierre Gasly GAS,AlphaTauri RBPT,23,+52.125s,0
+Red Bull Ring - Spielberg,2022-07-10,16,23,Alexander Albon ALB,Williams Mercedes,23,+52.412s,0
+Red Bull Ring - Spielberg,2022-07-10,17,22,Yuki Tsunoda TSU,AlphaTauri RBPT,23,+54.556s,0
+Red Bull Ring - Spielberg,2022-07-10,18,6,Nicholas Latifi LAT,Williams Mercedes,23,+68.694s,0
+Red Bull Ring - Spielberg,2022-07-10,19,5,Sebastian Vettel VET,Aston Martin Aramco Mercedes,21,DNF,0
+Red Bull Ring - Spielberg,2022-07-10,NC,14,Fernando Alonso ALO,Alpine Renault,0,DNS,0
+Autódromo José Carlos Pace - São Paulo,2022-11-13,1,63,George Russell RUS,Mercedes,24,30:11.307,8
+Autódromo José Carlos Pace - São Paulo,2022-11-13,2,55,Carlos Sainz SAI,Ferrari,24,+3.995s,7
+Autódromo José Carlos Pace - São Paulo,2022-11-13,3,44,Lewis Hamilton HAM,Mercedes,24,+4.492s,6
+Autódromo José Carlos Pace - São Paulo,2022-11-13,4,1,Max Verstappen VER,Red Bull Racing RBPT,24,+10.494s,5
+Autódromo José Carlos Pace - São Paulo,2022-11-13,5,11,Sergio Perez PER,Red Bull Racing RBPT,24,+11.855s,4
+Autódromo José Carlos Pace - São Paulo,2022-11-13,6,16,Charles Leclerc LEC,Ferrari,24,+13.133s,3
+Autódromo José Carlos Pace - São Paulo,2022-11-13,7,4,Lando Norris NOR,McLaren Mercedes,24,+25.624s,2
+Autódromo José Carlos Pace - São Paulo,2022-11-13,8,20,Kevin Magnussen MAG,Haas Ferrari,24,+28.768s,1
+Autódromo José Carlos Pace - São Paulo,2022-11-13,9,5,Sebastian Vettel VET,Aston Martin Aramco Mercedes,24,+30.218s,0
+Autódromo José Carlos Pace - São Paulo,2022-11-13,10,10,Pierre Gasly GAS,AlphaTauri RBPT,24,+34.170s,0
+Autódromo José Carlos Pace - São Paulo,2022-11-13,11,3,Daniel Ricciardo RIC,McLaren Mercedes,24,+39.395s,0
+Autódromo José Carlos Pace - São Paulo,2022-11-13,12,47,Mick Schumacher MSC,Haas Ferrari,24,+41.159s,0
+Autódromo José Carlos Pace - São Paulo,2022-11-13,13,24,Zhou Guanyu ZHO,Alfa Romeo Ferrari,24,+41.763s,0
+Autódromo José Carlos Pace - São Paulo,2022-11-13,14,77,Valtteri Bottas BOT,Alfa Romeo Ferrari,24,+42.338s,0
+Autódromo José Carlos Pace - São Paulo,2022-11-13,15,22,Yuki Tsunoda TSU,AlphaTauri RBPT,24,+50.306s,0
+Autódromo José Carlos Pace - São Paulo,2022-11-13,16,18,Lance Stroll STR,Aston Martin Aramco Mercedes,24,+50.700s,0
+Autódromo José Carlos Pace - São Paulo,2022-11-13,17,31,Esteban Ocon OCO,Alpine Renault,24,+51.756s,0
+Autódromo José Carlos Pace - São Paulo,2022-11-13,18,14,Fernando Alonso ALO,Alpine Renault,24,+53.985s,0
+Autódromo José Carlos Pace - São Paulo,2022-11-13,19,6,Nicholas Latifi LAT,Williams Mercedes,24,+76.850s,0
+Autódromo José Carlos Pace - São Paulo,2022-11-13,NC,23,Alexander Albon ALB,Williams Mercedes,12,DNF,0
+Baku City Circuit - Baku,2023-04-30,1,11,Sergio Perez PER,Red Bull Racing Honda RBPT,17,33:17.667,8
+Baku City Circuit - Baku,2023-04-30,2,16,Charles Leclerc LEC,Ferrari,17,+4.463s,7
+Baku City Circuit - Baku,2023-04-30,3,1,Max Verstappen VER,Red Bull Racing Honda RBPT,17,+5.065s,6
+Baku City Circuit - Baku,2023-04-30,4,63,George Russell RUS,Mercedes,17,+8.532s,5
+Baku City Circuit - Baku,2023-04-30,5,55,Carlos Sainz SAI,Ferrari,17,+10.388s,4
+Baku City Circuit - Baku,2023-04-30,6,14,Fernando Alonso ALO,Aston Martin Aramco Mercedes,17,+11.613s,3
+Baku City Circuit - Baku,2023-04-30,7,44,Lewis Hamilton HAM,Mercedes,17,+16.503s,2
+Baku City Circuit - Baku,2023-04-30,8,18,Lance Stroll STR,Aston Martin Aramco Mercedes,17,+18.417s,1
+Baku City Circuit - Baku,2023-04-30,9,23,Alexander Albon ALB,Williams Mercedes,17,+21.757s,0
+Baku City Circuit - Baku,2023-04-30,10,81,Oscar Piastri PIA,McLaren Mercedes,17,+22.851s,0
+Baku City Circuit - Baku,2023-04-30,11,20,Kevin Magnussen MAG,Haas Ferrari,17,+27.990s,0
+Baku City Circuit - Baku,2023-04-30,12,24,Zhou Guanyu ZHO,Alfa Romeo Ferrari,17,+34.602s,0
+Baku City Circuit - Baku,2023-04-30,13,10,Pierre Gasly GAS,Alpine Renault,17,+36.918s,0
+Baku City Circuit - Baku,2023-04-30,14,21,Nyck De Vries DEV,AlphaTauri Honda RBPT,17,+41.626s,0
+Baku City Circuit - Baku,2023-04-30,15,27,Nico Hulkenberg HUL,Haas Ferrari,17,+48.587s,0
+Baku City Circuit - Baku,2023-04-30,16,77,Valtteri Bottas BOT,Alfa Romeo Ferrari,17,+49.917s,0
+Baku City Circuit - Baku,2023-04-30,17,4,Lando Norris NOR,McLaren Mercedes,17,+51.104s,0
+Baku City Circuit - Baku,2023-04-30,18,31,Esteban Ocon OCO,Alpine Renault,17,+60.621s,0
+Baku City Circuit - Baku,2023-04-30,NC,22,Yuki Tsunoda TSU,AlphaTauri Honda RBPT,2,DNF,0
+Red Bull Ring - Spielberg,2023-07-02,1,1,Max Verstappen VER,Red Bull Racing Honda RBPT,24,30:26.730,8
+Red Bull Ring - Spielberg,2023-07-02,2,11,Sergio Perez PER,Red Bull Racing Honda RBPT,24,+21.048s,7
+Red Bull Ring - Spielberg,2023-07-02,3,55,Carlos Sainz SAI,Ferrari,24,+23.088s,6
+Red Bull Ring - Spielberg,2023-07-02,4,18,Lance Stroll STR,Aston Martin Aramco Mercedes,24,+29.703s,5
+Red Bull Ring - Spielberg,2023-07-02,5,14,Fernando Alonso ALO,Aston Martin Aramco Mercedes,24,+30.109s,4
+Red Bull Ring - Spielberg,2023-07-02,6,27,Nico Hulkenberg HUL,Haas Ferrari,24,+31.297s,3
+Red Bull Ring - Spielberg,2023-07-02,7,31,Esteban Ocon OCO,Alpine Renault,24,+36.602s,2
+Red Bull Ring - Spielberg,2023-07-02,8,63,George Russell RUS,Mercedes,24,+36.611s,1
+Red Bull Ring - Spielberg,2023-07-02,9,4,Lando Norris NOR,McLaren Mercedes,24,+38.608s,0
+Red Bull Ring - Spielberg,2023-07-02,10,44,Lewis Hamilton HAM,Mercedes,24,+46.375s,0
+Red Bull Ring - Spielberg,2023-07-02,11,81,Oscar Piastri PIA,McLaren Mercedes,24,+49.807s,0
+Red Bull Ring - Spielberg,2023-07-02,12,16,Charles Leclerc LEC,Ferrari,24,+50.789s,0
+Red Bull Ring - Spielberg,2023-07-02,13,23,Alexander Albon ALB,Williams Mercedes,24,+52.848s,0
+Red Bull Ring - Spielberg,2023-07-02,14,20,Kevin Magnussen MAG,Haas Ferrari,24,+56.593s,0
+Red Bull Ring - Spielberg,2023-07-02,15,10,Pierre Gasly GAS,Alpine Renault,24,+57.652s,0
+Red Bull Ring - Spielberg,2023-07-02,16,22,Yuki Tsunoda TSU,AlphaTauri Honda RBPT,24,+64.822s,0
+Red Bull Ring - Spielberg,2023-07-02,17,21,Nyck De Vries DEV,AlphaTauri Honda RBPT,24,+65.617s,0
+Red Bull Ring - Spielberg,2023-07-02,18,2,Logan Sargeant SAR,Williams Mercedes,24,+66.059s,0
+Red Bull Ring - Spielberg,2023-07-02,19,24,Zhou Guanyu ZHO,Alfa Romeo Ferrari,24,+70.825s,0
+Red Bull Ring - Spielberg,2023-07-02,20,77,Valtteri Bottas BOT,Alfa Romeo Ferrari,24,+76.435s,0
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2023-07-30,1,1,Max Verstappen VER,Red Bull Racing Honda RBPT,11,24:58.433,8
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2023-07-30,2,81,Oscar Piastri PIA,McLaren Mercedes,11,+6.677s,7
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2023-07-30,3,10,Pierre Gasly GAS,Alpine Renault,11,+10.733s,6
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2023-07-30,4,55,Carlos Sainz SAI,Ferrari,11,+12.648s,5
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2023-07-30,5,16,Charles Leclerc LEC,Ferrari,11,+15.016s,4
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2023-07-30,6,4,Lando Norris NOR,McLaren Mercedes,11,+16.052s,3
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2023-07-30,7,44,Lewis Hamilton HAM,Mercedes,11,+16.757s,2
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2023-07-30,8,63,George Russell RUS,Mercedes,11,+16.822s,1
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2023-07-30,9,31,Esteban Ocon OCO,Alpine Renault,11,+22.410s,0
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2023-07-30,10,3,Daniel Ricciardo RIC,AlphaTauri Honda RBPT,11,+22.806s,0
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2023-07-30,11,18,Lance Stroll STR,Aston Martin Aramco Mercedes,11,+25.007s,0
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2023-07-30,12,23,Alexander Albon ALB,Williams Mercedes,11,+26.303s,0
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2023-07-30,13,77,Valtteri Bottas BOT,Alfa Romeo Ferrari,11,+27.006s,0
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2023-07-30,14,20,Kevin Magnussen MAG,Haas Ferrari,11,+32.986s,0
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2023-07-30,15,24,Zhou Guanyu ZHO,Alfa Romeo Ferrari,11,+36.342s,0
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2023-07-30,16,2,Logan Sargeant SAR,Williams Mercedes,11,+37.571s,0
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2023-07-30,17,27,Nico Hulkenberg HUL,Haas Ferrari,11,+37.827s,0
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2023-07-30,18,22,Yuki Tsunoda TSU,AlphaTauri Honda RBPT,11,+39.267s,0
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2023-07-30,NC,11,Sergio Perez PER,Red Bull Racing Honda RBPT,8,DNF,0
+Circuit de Spa-Francorchamps - Spa-Francorchamps,2023-07-30,NC,14,Fernando Alonso ALO,Aston Martin Aramco Mercedes,2,DNF,0
+Lusail International Circuit - Lusail,2023-10-08,1,81,Oscar Piastri PIA,McLaren Mercedes,19,35:01.297,8
+Lusail International Circuit - Lusail,2023-10-08,2,1,Max Verstappen VER,Red Bull Racing Honda RBPT,19,+1.871s,7
+Lusail International Circuit - Lusail,2023-10-08,3,4,Lando Norris NOR,McLaren Mercedes,19,+8.497s,6
+Lusail International Circuit - Lusail,2023-10-08,4,63,George Russell RUS,Mercedes,19,+11.036s,5
+Lusail International Circuit - Lusail,2023-10-08,5,44,Lewis Hamilton HAM,Mercedes,19,+17.314s,4
+Lusail International Circuit - Lusail,2023-10-08,6,55,Carlos Sainz SAI,Ferrari,19,+18.806s,3
+Lusail International Circuit - Lusail,2023-10-08,7,23,Alexander Albon ALB,Williams Mercedes,19,+19.864s,2
+Lusail International Circuit - Lusail,2023-10-08,8,14,Fernando Alonso ALO,Aston Martin Aramco Mercedes,19,+21.180s,1
+Lusail International Circuit - Lusail,2023-10-08,9,10,Pierre Gasly GAS,Alpine Renault,19,+21.742s,0
+Lusail International Circuit - Lusail,2023-10-08,10,77,Valtteri Bottas BOT,Alfa Romeo Ferrari,19,+22.208s,0
+Lusail International Circuit - Lusail,2023-10-08,11,22,Yuki Tsunoda TSU,AlphaTauri Honda RBPT,19,+22.863s,0
+Lusail International Circuit - Lusail,2023-10-08,12,16,Charles Leclerc LEC,Ferrari,19,+24.860s,0
+Lusail International Circuit - Lusail,2023-10-08,13,20,Kevin Magnussen MAG,Haas Ferrari,19,+24.970s,0
+Lusail International Circuit - Lusail,2023-10-08,14,24,Zhou Guanyu ZHO,Alfa Romeo Ferrari,19,+26.868s,0
+Lusail International Circuit - Lusail,2023-10-08,15,18,Lance Stroll STR,Aston Martin Aramco Mercedes,19,+29.523s,0
+Lusail International Circuit - Lusail,2023-10-08,NC,27,Nico Hulkenberg HUL,Haas Ferrari,11,DNF,0
+Lusail International Circuit - Lusail,2023-10-08,NC,31,Esteban Ocon OCO,Alpine Renault,10,DNF,0
+Lusail International Circuit - Lusail,2023-10-08,NC,11,Sergio Perez PER,Red Bull Racing Honda RBPT,10,DNF,0
+Lusail International Circuit - Lusail,2023-10-08,NC,2,Logan Sargeant SAR,Williams Mercedes,2,DNF,0
+Lusail International Circuit - Lusail,2023-10-08,NC,40,Liam Lawson LAW,AlphaTauri Honda RBPT,0,DNF,0
+Circuit of The Americas - Austin,2023-10-22,1,1,Max Verstappen VER,Red Bull Racing Honda RBPT,19,31:30.849,8
+Circuit of The Americas - Austin,2023-10-22,2,44,Lewis Hamilton HAM,Mercedes,19,+9.465s,7
+Circuit of The Americas - Austin,2023-10-22,3,16,Charles Leclerc LEC,Ferrari,19,+17.987s,6
+Circuit of The Americas - Austin,2023-10-22,4,4,Lando Norris NOR,McLaren Mercedes,19,+18.863s,5
+Circuit of The Americas - Austin,2023-10-22,5,11,Sergio Perez PER,Red Bull Racing Honda RBPT,19,+22.928s,4
+Circuit of The Americas - Austin,2023-10-22,6,55,Carlos Sainz SAI,Ferrari,19,+28.307s,3
+Circuit of The Americas - Austin,2023-10-22,7,10,Pierre Gasly GAS,Alpine Renault,19,+32.403s,2
+Circuit of The Americas - Austin,2023-10-22,8,63,George Russell RUS,Mercedes,19,+34.250s,1
+Circuit of The Americas - Austin,2023-10-22,9,23,Alexander Albon ALB,Williams Mercedes,19,+34.567s,0
+Circuit of The Americas - Austin,2023-10-22,10,81,Oscar Piastri PIA,McLaren Mercedes,19,+42.403s,0
+Circuit of The Americas - Austin,2023-10-22,11,31,Esteban Ocon OCO,Alpine Renault,19,+44.986s,0
+Circuit of The Americas - Austin,2023-10-22,12,3,Daniel Ricciardo RIC,AlphaTauri Honda RBPT,19,+45.509s,0
+Circuit of The Americas - Austin,2023-10-22,13,14,Fernando Alonso ALO,Aston Martin Aramco Mercedes,19,+49.086s,0
+Circuit of The Americas - Austin,2023-10-22,14,22,Yuki Tsunoda TSU,AlphaTauri Honda RBPT,19,+49.733s,0
+Circuit of The Americas - Austin,2023-10-22,15,27,Nico Hulkenberg HUL,Haas Ferrari,19,+56.650s,0
+Circuit of The Americas - Austin,2023-10-22,16,77,Valtteri Bottas BOT,Alfa Romeo Ferrari,19,+64.401s,0
+Circuit of The Americas - Austin,2023-10-22,17,24,Zhou Guanyu ZHO,Alfa Romeo Ferrari,19,+67.972s,0
+Circuit of The Americas - Austin,2023-10-22,18,20,Kevin Magnussen MAG,Haas Ferrari,19,+71.122s,0
+Circuit of The Americas - Austin,2023-10-22,19,2,Logan Sargeant SAR,Williams Mercedes,19,+71.449s,0
+Circuit of The Americas - Austin,2023-10-22,NC,18,Lance Stroll STR,Aston Martin Aramco Mercedes,16,DNF,0
+Autódromo José Carlos Pace - São Paulo,2023-11-05,1,1,Max Verstappen VER,Red Bull Racing Honda RBPT,24,30:07.209,8
+Autódromo José Carlos Pace - São Paulo,2023-11-05,2,4,Lando Norris NOR,McLaren Mercedes,24,+4.287s,7
+Autódromo José Carlos Pace - São Paulo,2023-11-05,3,11,Sergio Perez PER,Red Bull Racing Honda RBPT,24,+13.617s,6
+Autódromo José Carlos Pace - São Paulo,2023-11-05,4,63,George Russell RUS,Mercedes,24,+25.879s,5
+Autódromo José Carlos Pace - São Paulo,2023-11-05,5,16,Charles Leclerc LEC,Ferrari,24,+28.560s,4
+Autódromo José Carlos Pace - São Paulo,2023-11-05,6,22,Yuki Tsunoda TSU,AlphaTauri Honda RBPT,24,+29.210s,3
+Autódromo José Carlos Pace - São Paulo,2023-11-05,7,44,Lewis Hamilton HAM,Mercedes,24,+34.726s,2
+Autódromo José Carlos Pace - São Paulo,2023-11-05,8,55,Carlos Sainz SAI,Ferrari,24,+35.106s,1
+Autódromo José Carlos Pace - São Paulo,2023-11-05,9,3,Daniel Ricciardo RIC,AlphaTauri Honda RBPT,24,+35.303s,0
+Autódromo José Carlos Pace - São Paulo,2023-11-05,10,81,Oscar Piastri PIA,McLaren Mercedes,24,+38.219s,0
+Autódromo José Carlos Pace - São Paulo,2023-11-05,11,14,Fernando Alonso ALO,Aston Martin Aramco Mercedes,24,+39.061s,0
+Autódromo José Carlos Pace - São Paulo,2023-11-05,12,18,Lance Stroll STR,Aston Martin Aramco Mercedes,24,+39.478s,0
+Autódromo José Carlos Pace - São Paulo,2023-11-05,13,10,Pierre Gasly GAS,Alpine Renault,24,+40.621s,0
+Autódromo José Carlos Pace - São Paulo,2023-11-05,14,31,Esteban Ocon OCO,Alpine Renault,24,+42.848s,0
+Autódromo José Carlos Pace - São Paulo,2023-11-05,15,23,Alexander Albon ALB,Williams Mercedes,24,+43.394s,0
+Autódromo José Carlos Pace - São Paulo,2023-11-05,16,20,Kevin Magnussen MAG,Haas Ferrari,24,+56.507s,0
+Autódromo José Carlos Pace - São Paulo,2023-11-05,17,24,Zhou Guanyu ZHO,Alfa Romeo Ferrari,24,+58.723s,0
+Autódromo José Carlos Pace - São Paulo,2023-11-05,18,27,Nico Hulkenberg HUL,Haas Ferrari,24,+60.330s,0
+Autódromo José Carlos Pace - São Paulo,2023-11-05,19,77,Valtteri Bottas BOT,Alfa Romeo Ferrari,24,+60.749s,0
+Autódromo José Carlos Pace - São Paulo,2023-11-05,20,2,Logan Sargeant SAR,Williams Mercedes,24,+60.945s,0
