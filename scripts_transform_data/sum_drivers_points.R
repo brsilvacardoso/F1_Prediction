@@ -7,7 +7,7 @@ races <- read.csv("./clean_files/races_2018_2023_appended.csv")
 
 
 races <-
-  select(races, Driver_Name_Abbreviation,  PTS)
+  select(races, driver_name_abbreviation,  pts)
 
 View(races)
 
@@ -15,13 +15,13 @@ View(races)
 # Summing Points ----------------------------------------------------------
 
 sum_points <-
-  tapply(races$PTS, races$Driver, FUN = sum, na.rm = TRUE)
+  tapply(races$pts, races$driver, FUN = sum, na.rm = TRUE)
 
 
 # Converting to dataframe
 sum_points_df <-
-  data.frame(Driver = names(sum_points),
-             Points = sum_points,
+  data.frame(driver = names(sum_points),
+             doints = sum_points,
              row.names = NULL)
 
 View(sum_points_df)
