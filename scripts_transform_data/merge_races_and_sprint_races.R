@@ -40,7 +40,17 @@ sprint_races_selected
 races_with_sprints <-
   merge(races, sprint_races_selected, by = "driver_year", all.x = TRUE)
 
+
+# Fill NA with 0
+
+races_with_sprints$total_points_sprint[is.na(races_with_sprints$total_points_sprint)] <-
+  0
+
+
+
 View(races_with_sprints)
+
+
 
 
 
@@ -54,7 +64,5 @@ View(races_with_sprints)
 
 # Saving the dataframe ----------------------------------------------------
 
-write.csv(
-  races_with_sprints,
-  "./clean_files/sum_points_races_with_sprints.csv"
-)
+write.csv(races_with_sprints,
+          "./clean_files/sum_points_races_with_sprints.csv")

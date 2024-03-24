@@ -15,45 +15,45 @@ library(DescTools)
 
 
 df_drivers <- read.csv("./clean_files/drivers_2018_2023.csv")
-#df_drivers
+df_drivers
 
 
-df_points <- read.csv("./clean_files/sum_points_driver_year.csv")
-#df_points
+# df_points <- read.csv("./clean_files/sum_points_races_with_sprints.csv")
+# View(df_points)
 
 
 df_wins <- read.csv("./clean_files/count_wins_year.csv")
-#df_wins
+df_wins
 
 
 df_podiums <- read.csv("./clean_files/count_podiums_year.csv")
-#df_podiums
+df_podiums
 
 df_laps <- read.csv("./clean_files/sum_drivers_laps_year.csv")
-#df_laps
+df_laps
 
 df_standings <-
-  read.csv("./clean_files/computing _position_by_year.csv")
-#df_standings
+  read.csv("./clean_files/computing_position_by_year.csv")
+df_standings
+
 
 
 # Merging files -----------------------------------------------------------
 
 dfs <-
   list(df_drivers,
-       df_points,
        df_wins,
        df_podiums,
        df_laps,
        df_standings)
-
+dfs
 
 merged_df <-
   Reduce(function(x, y)
     merge(x, y, by = "driver_year"), dfs)
 
 
-#merged_df
+merged_df
 
 # Selecting Columns -------------------------------------------------------
 
@@ -64,10 +64,10 @@ merged_df <-
 merged_df <-
   select(
     merged_df,
-    driver.x,
+    driver,
     driver_year,
     season.x,
-    Total_Points,
+    total_points,
     count_wins,
     count,
     laps_year,
@@ -75,17 +75,14 @@ merged_df <-
   )
 
 
-#merged_df
-
 merged_df <- merged_df %>%
   rename(
-    driver = driver.x,
     season = season.x,
-    total_points = Total_Points,
     count_podiums = count
   )
 
-#View(merged_df)
+
+View(merged_df)
 
 
 # Preliminary analyses ----------------------------------------------------
@@ -104,7 +101,7 @@ print(correlation_matrix)
 
 # Checking the correlations visual ------------------------------------------------
 
-# Checking position and laps year
+#Checking position and laps year
 # ggplot(data = merged_df, aes(x = position, y = total_points)) +
 #   geom_point() +
 #   scale_x_continuous(breaks = seq(0, 22, by = 1), labels = seq(0, 22, by = 1))
@@ -125,7 +122,7 @@ cor_matrix <- cor(df_cor_matrix)
 #corrplot(cor_matrix)
 
 
-# ggpairs(merged_df, cardinality_threshold = 130)
+#ggpairs(merged_df, cardinality_threshold = 130)
 
 
 # Testing and fit model to predict position -------------------------------------------------------
