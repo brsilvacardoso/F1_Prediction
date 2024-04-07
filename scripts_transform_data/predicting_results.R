@@ -55,7 +55,7 @@ merged_df <-
 
 merged_df
 
-# Selecting Columns -------------------------------------------------------
+# Selecting Columns in dataframe -------------------------------------------------------
 
 #print(colnames(merged_df))
 
@@ -76,13 +76,11 @@ merged_df <-
 
 
 merged_df <- merged_df %>%
-  rename(
-    season = season.x,
-    count_podiums = count
-  )
+  rename(season = season.x,
+         count_podiums = count)
 
 
-View(merged_df)
+#View(merged_df)
 
 
 # Preliminary analyses ----------------------------------------------------
@@ -148,11 +146,15 @@ y_test <- y[-split]
 
 # Creating the model
 linear_regression <-
-  lm(y_train ~ total_points + count_wins + count_podiums + laps_year,
+  lm(y_train ~  total_points + count_wins + count_podiums + laps_year,
      data = x_train)
 linear_regression
 
+
+
 r_squared <- summary(linear_regression)$r.squared
+r_squared
+
 
 # Print the rounded R-squared value
 cat("R² =", round(r_squared, 2), "\n")
@@ -171,64 +173,6 @@ root_mean_squared_error
 
 
 
-# Creating model position ----------------------------------------------------------
-
-
-linear_model <-
-  lm (position ~ total_points + count_wins + count_podiums + laps_year,
-      data = merged_df)
-
-
-# Adding the pred as a columns
-prediction_position <- predict(linear_model, merged_df)
-
-
-merged_df$prediction_position <- prediction_position
-
-filtered_with_prediction <-
-  filter(merged_df, season == 2023)
-
-filtered_with_prediction
-
-
-# Selecting the columns to check the difference
-filtered_with_prediction <-
-  select(filtered_with_prediction,
-         driver,
-         position,
-         prediction_position)
-
-filtered_with_prediction
-
-# Converting prediction_position to numerical
-filtered_with_prediction$prediction_position <-
-  as.numeric(filtered_with_prediction$prediction_position)
-
-# If prediction_position is negative, change to 1
-filtered_with_prediction$prediction_position[filtered_with_prediction$prediction_position < 0] <-
-  1
-
-
-# Round each position up
-filtered_with_prediction$prediction_position <-
-  ceiling(filtered_with_prediction$prediction_position)
-filtered_with_prediction
-
-
-# Adding difference column
-filtered_with_prediction$difference_true_prediction <-
-  filtered_with_prediction$position - filtered_with_prediction$prediction_position
-
-
-filtered_with_prediction
-
-# Saving prediction based on position -------------------------------------
-
-write.csv(
-  filtered_with_prediction,
-  "./clean_files/prediction_results/prediction_position.csv",
-  row.names = FALSE
-)
 
 # Testing and fit model to predict points -------------------------------------------------------
 
@@ -281,7 +225,7 @@ root_mean_squared_error
 
 
 linear_model <-
-  lm(total_points ~ position + count_wins + count_podiums + laps_year,
+  lm(total_points ~ -1 +position + count_wins + count_podiums + laps_year,
      data = merged_df)
 
 
@@ -307,6 +251,8 @@ filtered_with_prediction <-
          prediction_points)
 
 filtered_with_prediction
+
+View(filtered_with_prediction)
 
 
 
@@ -353,7 +299,64 @@ write.csv(
 )
 
 
+# Creating model position ----------------------------------------------------------
+ERROR
+
+linear_model <-
+  lm (position ~ total_points + count_wins + count_podiums + laps_year,
+      data = merged_df)
 
 
-# Predict the position based on the total points
-predict(lm, data.frame(total_points = 100, count_podiums = 0))
+# Adding the pred as a columns
+prediction_position <- predict(linear_model, merged_df)
+
+
+merged_df$prediction_position <- prediction_position
+
+filtered_with_prediction <-
+  filter(merged_df, season == 2023)
+
+filtered_with_prediction
+
+
+# Selecting the columns to check the difference
+filtered_with_prediction <-
+  select(filtered_with_prediction,
+         driver,
+         position,
+         prediction_position)
+
+filtered_with_prediction
+
+# Converting prediction_position to numerical
+filtered_with_prediction$prediction_position <-
+  as.numeric(filtered_with_prediction$prediction_position)
+
+# If prediction_position is negative, change to 1
+filtered_with_prediction$prediction_position[filtered_with_prediction$prediction_position < 0] <-
+  1
+
+
+# Round each position up
+filtered_with_prediction$prediction_position <-
+  ceiling(filtered_with_prediction$prediction_position)
+filtered_with_prediction
+
+
+# Adding difference column
+filtered_with_prediction$difference_true_prediction <-
+  filtered_with_prediction$position - filtered_with_prediction$prediction_position
+
+
+filtered_with_prediction
+
+
+
+
+# Saving prediction based on position -------------------------------------
+
+write.csv(
+  filtered_with_prediction,
+  "./clean_files/prediction_results/prediction_position.csv",
+  row.names = FALSE
+)

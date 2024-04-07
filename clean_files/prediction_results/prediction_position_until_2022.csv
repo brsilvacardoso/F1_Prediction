@@ -1,0 +1,23 @@
+"driver","driver_year","season","total_points","count_wins","count_podiums","laps_year","position"
+"Alexander Albon","ALB_2022",2022,4,0,0,1100,19
+"Fernando Alonso","ALO_2022",2022,81,0,0,1118,9
+"Valtteri Bottas","BOT_2022",2022,49,0,0,1136,10
+"Nyck De Vries","DEV_2022",2022,2,0,0,53,20
+"Pierre Gasly","GAS_2022",2022,23,0,0,1237,14
+"Lewis Hamilton","HAM_2022",2022,240,0,9,1246,6
+"Nico Hulkenberg","HUL_2022",2022,0,0,0,107,22
+"Nicholas Latifi","LAT_2022",2022,2,0,0,1155,21
+"Charles Leclerc","LEC_2022",2022,308,3,11,1189,2
+"Kevin Magnussen","MAG_2022",2022,25,0,0,1132,13
+"Mick Schumacher","MSC_2022",2022,12,0,0,1142,16
+"Lando Norris","NOR_2022",2022,122,0,1,1253,7
+"Esteban Ocon","OCO_2022",2022,92,0,0,1243,8
+"Sergio Perez","PER_2022",2022,305,2,11,1183,3
+"Daniel Ricciardo","RIC_2022",2022,37,0,0,1195,11
+"George Russell","RUS_2022",2022,275,1,8,1240,4
+"Carlos Sainz","SAI_2022",2022,246,1,9,1033,5
+"Lance Stroll","STR_2022",2022,18,0,0,1234,15
+"Yuki Tsunoda","TSU_2022",2022,12,0,0,1101,17
+"Max Verstappen","VER_2022",2022,454,15,17,1271,1
+"Sebastian Vettel","VET_2022",2022,37,0,0,1101,12
+"Zhou Guanyu","ZHO_2022",2022,6,0,0,1060,18
