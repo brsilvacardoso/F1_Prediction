@@ -15,7 +15,7 @@ library(DescTools)
 
 
 df_drivers <- read.csv("./clean_files/drivers_2018_2023.csv")
-df_drivers
+#df_drivers
 
 
 # df_points <- read.csv("./clean_files/sum_points_races_with_sprints.csv")
@@ -23,18 +23,18 @@ df_drivers
 
 
 df_wins <- read.csv("./clean_files/count_wins_year.csv")
-df_wins
+#df_wins
 
 
 df_podiums <- read.csv("./clean_files/count_podiums_year.csv")
-df_podiums
+#df_podiums
 
 df_laps <- read.csv("./clean_files/sum_drivers_laps_year.csv")
-df_laps
+#df_laps
 
 df_standings <-
   read.csv("./clean_files/computing_position_by_year.csv")
-df_standings
+#df_standings
 
 
 
@@ -46,14 +46,14 @@ dfs <-
        df_podiums,
        df_laps,
        df_standings)
-dfs
+#dfs
 
 merged_df <-
   Reduce(function(x, y)
     merge(x, y, by = "driver_year"), dfs)
 
 
-merged_df
+#merged_df
 
 # Selecting Columns in dataframe -------------------------------------------------------
 
@@ -351,8 +351,8 @@ filtered_with_prediction
 
 # Saving prediction based on position -------------------------------------
 
-write.csv(
-  filtered_with_prediction,
-  "./clean_files/prediction_results/test_prediction_position.csv",
-  row.names = FALSE
-)
+# write.csv(
+#   filtered_with_prediction,
+#   "./clean_files/prediction_results/test_prediction_position.csv",
+#   row.names = FALSE
+# )
