@@ -53,7 +53,7 @@ merged_df <-
     merge(x, y, by = "driver_year"), dfs)
 
 
-#merged_df
+head (merged_df, n = 5L)
 
 # Selecting Columns in dataframe -------------------------------------------------------
 
@@ -123,59 +123,12 @@ cor_matrix <- cor(df_cor_matrix)
 #ggpairs(merged_df, cardinality_threshold = 130)
 
 
-# Testing and fit model to predict position -------------------------------------------------------
-
-# Renaming the dataframe to train and test
-
-merged_df_test_position <- merged_df
-
-set.seed(128)
-
-# Split the data into predictors (X) and response (y)
-x <-
-  merged_df_test_position[, c('total_points', 'count_wins', 'count_podiums', 'laps_year')]
-y <- merged_df_test_position$position
-
-# Split the data into train and test sets
-split <- createDataPartition(y, p = 0.8, list = FALSE)
-x_train <- x[split,]
-x_test <- x[-split,]
-y_train <- y[split]
-y_test <- y[-split]
-
-
-# Creating the model
-linear_regression <-
-  lm(y_train ~ total_points + count_wins + count_podiums + laps_year,
-     data = x_train)
-linear_regression
-
-r_squared <- summary(linear_regression)$r.squared
-
-# Print the rounded R-squared value
-cat("R² =", round(r_squared, 2), "\n")
-
-# Prediction using model
-prediction_test <- predict(linear_regression, x_test)
-
-# Comparing the actual results with the prediction
-compare_actual_test <-
-  data.frame(actual = y_test, predicted = prediction_test)
-compare_actual_test
-
-# Checking the root mean squared error
-root_mean_squared_error <- RMSE(prediction_test, y_test)
-root_mean_squared_error
-
-
-
-
 # Testing and fit model to predict points -------------------------------------------------------
 
 # Renaming the dataframe to train and test
 
 merged_df_test_points <- merged_df
-merged_df_test_points
+head(merged_df_test_points, n = 5L)
 
 set.seed(128)
 
@@ -192,7 +145,7 @@ y_train <- y[split]
 y_test <- y[-split]
 
 
-# Creating the model HERE
+# Creating the model
 linear_regression <-
   lm(y_train ~ position + count_wins + count_podiums + laps_year, data = x_train)
 linear_regression
