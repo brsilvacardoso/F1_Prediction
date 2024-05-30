@@ -1,3 +1,7 @@
+# Goal --------------------------------------------------------------------
+
+# The goal of this file is to test the linear model. It is trying to predict the F1 result based on the points from 2018 to 2022.
+
 # Importing libraries -----------------------------------------------------
 
 library(dplyr)
@@ -8,8 +12,6 @@ library(GGally)
 library(magrittr)
 library(corrplot)
 library(DescTools)
-
-
 
 # Setting file ------------------------------------------------------------
 
@@ -41,12 +43,9 @@ df_standings <-
 # Merging files -----------------------------------------------------------
 
 dfs <-
-  list(df_drivers,
-       df_wins,
-       df_podiums,
-       df_laps,
-       df_standings)
-#dfs
+  list(df_drivers, df_wins, df_podiums, df_laps, df_standings)
+
+#head(dfs)
 
 merged_df <-
   Reduce(function(x, y)
@@ -54,6 +53,7 @@ merged_df <-
 
 
 head (merged_df, n = 5L)
+
 
 # Selecting Columns in dataframe -------------------------------------------------------
 
@@ -76,17 +76,58 @@ merged_df <-
 
 
 merged_df <- merged_df %>%
-  rename(season = season.x,
-         count_podiums = count)
+  rename(season = season.x, count_podiums = count)
 
 
-View(merged_df)
+head(merged_df, n = 10L)
 
+
+
+# Splitting dataframes ----------------------------------------------------
+
+# Spiting dataframes: one to predict 2023, other to compare results in 2023.
+
+# Filtering results equal 2023
+
+
+df_results_2023 <- merged_df %>%
+  filter(season == 2023)
+
+# Selecting columns in df_results_2023
+df_results_2023 <-
+  select(df_results_2023,
+         driver,
+         driver_year,
+         season,
+         total_points,
+         position)
+
+head(df_results_2023, n = 5L)
+
+# Renaming coluns in df_results_2023
+
+df_results_2023 <- df_results_2023 %>%
+  rename(
+    season_2023 = season,
+    total_points_2023 = total_points,
+    position_2023 = position
+  )
+
+
+
+head(df_results_2023, n = 10L)
+
+
+merged_df <- merged_df %>%
+  filter(season >= 2018 & season <= 2022)
+
+head(merged_df, n = 10L)
 
 # Preliminary analyses ----------------------------------------------------
 
 #Descriptive statistics
 summary(merged_df)
+summary(df_results_2023)
 
 
 # Creating correlation matrix
@@ -135,12 +176,12 @@ set.seed(128)
 # Split the data into predictors (X) and response (y)
 x <-
   merged_df_test_points[, c('position', 'count_podiums', 'count_wins', 'laps_year')]
-y <- merged_df_test_position$total_points
+y <- merged_df_test_points$total_points
 
 # Split the data into train and test sets
 split <- createDataPartition(y, p = 0.8, list = FALSE)
-x_train <- x[split,]
-x_test <- x[-split,]
+x_train <- x[split, ]
+x_test <- x[-split, ]
 y_train <- y[split]
 y_test <- y[-split]
 
@@ -170,6 +211,7 @@ root_mean_squared_error <- RMSE(prediction_test, y_test)
 root_mean_squared_error
 
 
+
 # Creating model ----------------------------------------------------------
 
 
@@ -178,134 +220,89 @@ linear_model <-
      data = merged_df)
 
 
+
 # Adding the pred as a columns
-prediction_points <- predict(linear_model, merged_df)
+prediction_points_next_season <- predict(linear_model, merged_df)
+prediction_points_next_season
 
 
-merged_df$prediction_points <- prediction_points
+merged_df$prediction_points_next_season <- prediction_points_next_season
+head(merged_df, n = 15L)
 
 
-filtered_with_prediction <-
-  filter(merged_df, season == 2022)
+# Filtering to get just the 2022 result
 
-filtered_with_prediction
+df_results_2022 <- merged_df %>%
+  filter(season == 2022)
 
-
-# Selecting the columns to check the difference
-filtered_with_prediction <-
-  select(filtered_with_prediction,
-         driver,
-         total_points,
-         position,
-         prediction_points)
-
-filtered_with_prediction
-
-View(filtered_with_prediction)
+head(df_results_2022, n = 15L)
 
 
-
-# If prediction_points is negative, change to 0
-filtered_with_prediction$prediction_points[filtered_with_prediction$prediction_points < 0] <-
+# If prediction_points_next_season is negative, change to 0
+df_results_2022$prediction_points_next_season[df_results_2022$prediction_points_next_season < 0] <-
   0
+
+head(df_results_2022, n = 15L)
 
 
 # Rounding the prediction points
-filtered_with_prediction$prediction_points <-
-  format(round(filtered_with_prediction$prediction_points , 0),
+df_results_2022$prediction_points_next_season <-
+  format(round(df_results_2022$prediction_points_next_season , 0),
          nsmall = 0)
+
+head(df_results_2022, n = 15L)
+
 
 
 # Convert a character column to numeric
-filtered_with_prediction$prediction_points <-
-  as.numeric(filtered_with_prediction$prediction_points)
+df_results_2022$prediction_points_next_season <-
+  as.numeric(df_results_2022$prediction_points_next_season)
+
+head(df_results_2022, n = 15L)
+
+
+# Checking projection and realization 2023 --------------------------------
+
+compared_df <- merge(df_results_2022, df_results_2023, by = "driver")
+print(compared_df)
+
+compared_df <-
+  select(compared_df,
+         driver,
+         prediction_points_next_season,
+         total_points_2023,
+         position_2023
+         )
+
+head(compared_df, n = 15L)
+
 
 # Adding difference column
-filtered_with_prediction$difference_true_prediction_points <-
-  filtered_with_prediction$total_points - filtered_with_prediction$prediction_points
+compared_df$difference_points <-
+  compared_df$prediction_points_next_season - compared_df$total_points_2023
 
-filtered_with_prediction
+head(compared_df, n = 15L)
 
 
 # Creating column position based on points
-filtered_with_prediction$position_based_points <-
-  rank(-filtered_with_prediction$prediction_points,
+compared_df$position_based_points <-
+  rank(-compared_df$prediction_points_next_season,
        ties.method = "min")
+
+head(compared_df, n = 15L)
 
 
 # Adding difference position based on points
-filtered_with_prediction$difference_position_based_points <-
-  filtered_with_prediction$position - filtered_with_prediction$position_based_points
+compared_df$difference_position_based_points <-
+  compared_df$position_2023 - compared_df$position_based_points
 
-filtered_with_prediction
+head(compared_df, n = 15L)
+
 
 # Saving prediction based on position -------------------------------------
 
 write.csv(
-  filtered_with_prediction,
+  compared_df,
   "./clean_files/prediction_results/test_prediction_based_points.csv",
   row.names = FALSE
 )
-
-
-# Creating model position ----------------------------------------------------------
-ERROR
-
-linear_model <-
-  lm (position ~ total_points + count_wins + count_podiums + laps_year,
-      data = merged_df)
-
-
-# Adding the pred as a columns
-prediction_position <- predict(linear_model, merged_df)
-
-
-merged_df$prediction_position <- prediction_position
-
-filtered_with_prediction <-
-  filter(merged_df, season == 2022)
-
-filtered_with_prediction
-
-
-# Selecting the columns to check the difference
-filtered_with_prediction <-
-  select(filtered_with_prediction,
-         driver,
-         position,
-         prediction_position)
-
-filtered_with_prediction
-
-# Converting prediction_position to numerical
-filtered_with_prediction$prediction_position <-
-  as.numeric(filtered_with_prediction$prediction_position)
-
-# If prediction_position is negative, change to 1
-filtered_with_prediction$prediction_position[filtered_with_prediction$prediction_position < 0] <-
-  1
-
-
-# Round each position up
-filtered_with_prediction$prediction_position <-
-  ceiling(filtered_with_prediction$prediction_position)
-filtered_with_prediction
-
-
-# Adding difference column
-filtered_with_prediction$difference_true_prediction <-
-  filtered_with_prediction$position - filtered_with_prediction$prediction_position
-
-
-filtered_with_prediction
-
-
-
-
-# Saving prediction based on position -------------------------------------
-
-# write.csv(
-#   filtered_with_prediction,
-#   "./clean_files/prediction_results/test_prediction_position.csv",
-#   row.names = FALSE
-# )
