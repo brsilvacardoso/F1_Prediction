@@ -23,12 +23,6 @@ For academia, this article contributes to the study of predictive analysis in F1
 - Jupyter Notebook (54.8%)
 - R (45.2%)
 
-## Setup Instructions
-
-1. Clone the repository.
-2. Install the required packages listed in the `requirements.txt`.
-3. Run the Jupyter notebooks to explore the analysis and predictions.
-
 ## Conclusion
 
 This project provides valuable insights into the predictive analysis of F1 standings and paves the way for future research in the field of big data and machine learning within the context of sports analytics.
